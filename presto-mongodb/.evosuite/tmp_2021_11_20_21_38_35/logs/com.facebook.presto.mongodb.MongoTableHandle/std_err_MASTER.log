@@ -1,0 +1,7 @@
+[MASTER] 21:56:42.976 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.mongodb.MongoTableHandle. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 21:56:42.979 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 21:56:43.078 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 21:56:44.083 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 21:56:44.192 [main] ERROR TestGeneration - failed to write statistics data

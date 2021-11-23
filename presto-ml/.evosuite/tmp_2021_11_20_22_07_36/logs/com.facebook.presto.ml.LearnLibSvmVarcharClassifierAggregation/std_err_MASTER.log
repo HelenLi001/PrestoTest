@@ -1,0 +1,6 @@
+[MASTER] 22:32:21.838 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.ml.LearnLibSvmVarcharClassifierAggregation. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 22:32:21.865 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 22:32:21.949 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 22:32:22.050 [main] ERROR TestGeneration - failed to write statistics data

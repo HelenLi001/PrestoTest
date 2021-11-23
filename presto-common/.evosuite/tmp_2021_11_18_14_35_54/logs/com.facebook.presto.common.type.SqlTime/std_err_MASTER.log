@@ -1,0 +1,3 @@
+[MASTER] 15:49:19.629 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.common.type.SqlTime. Clients have not finished yet, although a timeout occurred.
+ClientNode: ASSERTION_GENERATION
+

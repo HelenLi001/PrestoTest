@@ -1,0 +1,5 @@
+[MASTER] 14:17:40.848 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.verifier.checksum.SimpleColumnValidator. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 14:17:40.960 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 14:17:41.061 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,3 @@
+[MASTER] 16:30:32.105 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.kafka.schema.file.FileTableDescriptionSupplierModule. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

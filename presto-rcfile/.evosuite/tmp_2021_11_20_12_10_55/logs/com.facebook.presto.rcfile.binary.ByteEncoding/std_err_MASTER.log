@@ -1,0 +1,3 @@
+[MASTER] 12:36:23.022 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.rcfile.binary.ByteEncoding. Clients have not finished yet, although a timeout occurred.
+ClientNode: ASSERTION_GENERATION
+

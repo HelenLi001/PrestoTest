@@ -1,0 +1,6 @@
+* Starting client
+* Connecting to master process on port 18029
+* Analyzing classpath: 
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-classloader-interface/target/classes
+  - /home/helen/.m2/repository/com/facebook/presto/spark/spark-core/2.0.2-6/spark-core-2.0.2-6.jar
+* Error while initializing target class: String index out of range: 31

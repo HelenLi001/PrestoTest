@@ -1,0 +1,2 @@
+[MASTER] 22:27:01.225 [TEST_EXECUTION_THREAD_0] ERROR FunctionalMockStatement - Failed to use Mockito on interface com.facebook.presto.spi.connector.ConnectorPartitioningHandle: null
+[MASTER] 22:27:01.228 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.facebook.presto.spi.connector.ConnectorPartitioningHandle due to failed class initialization: Could not initialize class org.evosuite.shaded.org.mockito.internal.util.MockUtil

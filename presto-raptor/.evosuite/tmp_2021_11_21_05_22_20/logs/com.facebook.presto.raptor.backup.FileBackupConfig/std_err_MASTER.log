@@ -1,0 +1,5 @@
+[MASTER] 07:35:52.136 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.raptor.backup.FileBackupConfig. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 07:35:52.245 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 07:35:52.347 [main] ERROR TestGeneration - failed to write statistics data

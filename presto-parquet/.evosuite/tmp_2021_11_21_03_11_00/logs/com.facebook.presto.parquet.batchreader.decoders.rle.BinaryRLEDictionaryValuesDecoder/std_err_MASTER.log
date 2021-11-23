@@ -1,0 +1,7 @@
+[MASTER] 04:04:53.957 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.parquet.batchreader.decoders.rle.BinaryRLEDictionaryValuesDecoder. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 04:04:53.960 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 04:04:54.061 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 04:04:55.070 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 04:04:55.171 [main] ERROR TestGeneration - failed to write statistics data

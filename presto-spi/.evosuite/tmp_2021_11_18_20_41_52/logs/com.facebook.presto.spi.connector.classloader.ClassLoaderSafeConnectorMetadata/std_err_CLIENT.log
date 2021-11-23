@@ -1,0 +1,69 @@
+[MASTER] 20:44:00.559 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 20:44:00.563 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 20:44:00.564 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Optional<T> : Type points to itself
+[MASTER] 20:44:02.472 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Set<E> : Type points to itself
+[MASTER] 20:44:28.632 [TEST_EXECUTION_THREAD_0] ERROR FunctionalMockStatement - Failed to use Mockito on interface com.facebook.presto.spi.connector.ConnectorMetadata: null
+[MASTER] 20:44:37.766 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.facebook.presto.spi.connector.ConnectorMetadata due to IAE: 
+Mockito cannot mock this class: interface com.facebook.presto.spi.connector.ConnectorMetadata.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 20:44:44.444 [TEST_EXECUTION_THREAD_3] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.facebook.presto.spi.ConnectorSession due to IAE: 
+Mockito cannot mock this class: interface com.facebook.presto.spi.ConnectorSession.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 20:44:46.524 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 20:44:46.630 [TEST_EXECUTION_THREAD_3] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.facebook.presto.spi.ConnectorTableLayoutHandle due to IAE: 
+Mockito cannot mock this class: interface com.facebook.presto.spi.ConnectorTableLayoutHandle.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 20:44:51.854 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 20:44:59.550 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for com.facebook.presto.common.predicate.TupleDomain<T> : Type points to itself
+[MASTER] 20:45:10.290 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Predicate<T> : Type points to itself
+[MASTER] 20:45:15.741 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 20:45:31.617 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Map<K, V> : Type points to itself
+[MASTER] 20:48:16.653 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 20:54:25.630 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for com.google.common.collect.DiscreteDomain<C> : Type points to itself
+[MASTER] 21:12:11.831 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for com.google.common.base.Converter<A, B> : Type points to itself
+[MASTER] 21:31:40.548 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.airlift.slice.Slice: null

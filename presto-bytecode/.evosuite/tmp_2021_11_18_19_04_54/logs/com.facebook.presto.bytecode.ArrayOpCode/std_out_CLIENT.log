@@ -1,0 +1,90 @@
+* Starting client
+* Connecting to master process on port 21147
+* Analyzing classpath: 
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-bytecode/target/classes
+  - /home/helen/.m2/repository/org/ow2/asm/asm/9.0/asm-9.0.jar
+  - /home/helen/.m2/repository/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar
+  - /home/helen/.m2/repository/org/ow2/asm/asm-util/9.0/asm-util-9.0.jar
+  - /home/helen/.m2/repository/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar
+  - /home/helen/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+  - /home/helen/.m2/repository/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar
+  - /home/helen/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar
+  - /home/helen/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar
+  - /home/helen/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+  - /home/helen/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
+  - /home/helen/.m2/repository/io/airlift/slice/0.38/slice-0.38.jar
+  - /home/helen/.m2/repository/org/openjdk/jol/jol-core/0.2/jol-core-0.2.jar
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-testng-services/target/classes
+  - /home/helen/.m2/repository/com/facebook/airlift/log/0.201/log-0.201.jar
+  - /home/helen/.m2/repository/io/airlift/units/1.3/units-1.3.jar
+  - /home/helen/.m2/repository/com/facebook/airlift/concurrent/0.201/concurrent-0.201.jar
+  - /home/helen/.m2/repository/org/testng/testng/6.10/testng-6.10.jar
+  - /home/helen/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar
+  - /home/helen/.m2/repository/org/assertj/assertj-core/3.8.0/assertj-core-3.8.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.facebook.presto.bytecode.ArrayOpCode
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 17 tests from /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-bytecode/.evosuite/evosuite-seeds/com.facebook.presto.bytecode.ArrayOpCode.seed
+* Total number of test goals: 
+  - Line 25
+  - Branch 13
+  - Exception 0
+  - MutationFactory 64
+  - Output 44
+  - Method 7
+  - MethodNoException 7
+  - CBranchFitnessFactory 13
+* Using seed 1637293468714
+* Starting evolution
+[MASTER] 19:44:59.859 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 23 seconds more than allowed.
+* Search finished after 49s and 781 generations, 73564 statements, best individual has fitness: 82.76666666666667
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 44%
+* Total number of goals: 25
+* Number of covered goals: 11
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 69%
+* Total number of goals: 13
+* Number of covered goals: 9
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 53%
+* Total number of goals: 64
+* Number of covered goals: 34
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 30%
+* Total number of goals: 44
+* Number of covered goals: 13
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 86%
+* Total number of goals: 7
+* Number of covered goals: 6
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 69%
+* Total number of goals: 13
+* Number of covered goals: 9
+* Generated 11 tests with total length 18
+* Resulting test suite's coverage: 69% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 34%
+* Compiling and checking tests
+[MASTER] 19:45:52.370 [pool-2-thread-1] WARN  TimeController - Current phase JUNIT_CHECK could run up to 7s, but only 5s are left

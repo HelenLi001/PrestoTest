@@ -1,0 +1,7 @@
+[MASTER] 23:15:16.602 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.kudu.KuduHandleResolver. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 23:15:16.607 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 23:15:16.707 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 23:15:17.712 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 23:15:17.815 [main] ERROR TestGeneration - failed to write statistics data

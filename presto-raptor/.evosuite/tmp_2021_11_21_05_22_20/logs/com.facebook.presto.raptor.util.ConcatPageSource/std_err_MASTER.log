@@ -1,0 +1,5 @@
+[MASTER] 06:41:50.673 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.raptor.util.ConcatPageSource. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 06:41:50.778 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 06:41:50.879 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,6 @@
+[MASTER] 04:04:39.862 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.parquet.ParquetResultVerifierUtils. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 04:04:39.966 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 04:04:40.971 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 04:04:41.074 [main] ERROR TestGeneration - failed to write statistics data

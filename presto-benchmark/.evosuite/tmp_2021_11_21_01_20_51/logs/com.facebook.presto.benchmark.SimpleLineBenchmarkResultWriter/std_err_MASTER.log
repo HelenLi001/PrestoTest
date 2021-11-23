@@ -1,0 +1,5 @@
+[MASTER] 01:55:13.113 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.benchmark.SimpleLineBenchmarkResultWriter. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 01:55:13.214 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 01:55:13.316 [main] ERROR TestGeneration - failed to write statistics data

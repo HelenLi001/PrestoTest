@@ -1,0 +1,5 @@
+[MASTER] 01:40:11.642 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.thrift.api.datatypes.PrestoThriftTimestamp. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 01:40:11.744 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 01:40:11.846 [main] ERROR TestGeneration - failed to write statistics data

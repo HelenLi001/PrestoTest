@@ -1,0 +1,271 @@
+[MASTER] 15:14:59.631 [TEST_EXECUTION_THREAD_0] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.facebook.presto.common.type.Type due to IAE: 
+Mockito cannot mock this class: interface com.facebook.presto.common.type.Type.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 15:15:05.677 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.common.block.BlockBuilderStatus due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.common.block.BlockBuilderStatus.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 15:15:10.203 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on class java.lang.invoke.MethodHandle due to IAE: 
+Mockito cannot mock this class: class java.lang.invoke.MethodHandle.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 15:15:10.354 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.facebook.presto.common.block.LazyBlockLoader due to IAE: 
+Mockito cannot mock this class: interface com.facebook.presto.common.block.LazyBlockLoader.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 15:15:10.617 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.common.function.SqlFunctionProperties due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.common.function.SqlFunctionProperties.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 15:15:10.994 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.facebook.presto.common.block.AbstractArrayBlock$ArrayBlockFunction due to IAE: 
+Mockito cannot mock this class: interface com.facebook.presto.common.block.AbstractArrayBlock$ArrayBlockFunction.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 15:15:11.101 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on interface java.util.function.BiConsumer due to IAE: 
+Mockito cannot mock this class: interface java.util.function.BiConsumer.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 15:15:15.152 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.facebook.presto.common.block.ClosingBlockLease$Closer due to IAE: 
+Mockito cannot mock this class: interface com.facebook.presto.common.block.ClosingBlockLease$Closer.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 15:15:19.213 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on interface java.util.function.BiFunction due to IAE: 
+Mockito cannot mock this class: interface java.util.function.BiFunction.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 15:15:21.946 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.common.type.RowFieldName due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.common.type.RowFieldName.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 15:15:22.021 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Optional<T> : Type points to itself
+[MASTER] 15:15:32.921 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.common.type.UserDefinedType due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.common.type.UserDefinedType.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 15:15:42.434 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on interface java.util.Comparator due to IAE: 
+Mockito cannot mock this class: interface java.util.Comparator.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 15:15:43.507 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.common.type.BigintEnumType$LongEnumMap due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.common.type.BigintEnumType$LongEnumMap.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 15:16:02.371 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on interface java.util.function.Consumer due to IAE: 
+Mockito cannot mock this class: interface java.util.function.Consumer.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 15:16:04.313 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.common.type.VarcharEnumType$VarcharEnumMap due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.common.type.VarcharEnumType$VarcharEnumMap.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type

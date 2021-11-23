@@ -1,0 +1,5 @@
+[MASTER] 00:58:11.885 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.expressions.DefaultRowExpressionTraversalVisitor. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 00:58:12.012 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 00:58:12.150 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,15 @@
+* Starting client
+* Connecting to master process on port 9539
+* Analyzing classpath: 
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-launcher/target/classes
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-classloader-interface/target/classes
+  - /home/helen/.m2/repository/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar
+  - /home/helen/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+  - /home/helen/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar
+  - /home/helen/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar
+  - /home/helen/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+  - /home/helen/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
+  - /home/helen/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar
+  - /home/helen/.m2/repository/io/airlift/airline/0.8/airline-0.8.jar
+  - /home/helen/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar
+  - /home/helen/.m2/repository/com/facebook/presto/spark/spark-core/2.0.2-6/spark-core-2.0.2-6.jar

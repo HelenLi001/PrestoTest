@@ -1,0 +1,3 @@
+[MASTER] 11:13:53.504 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.orc.metadata.statistics.BooleanStatisticsBuilder. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

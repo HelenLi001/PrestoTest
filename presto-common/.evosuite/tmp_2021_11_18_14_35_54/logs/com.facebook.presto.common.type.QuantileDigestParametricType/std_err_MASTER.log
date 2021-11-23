@@ -1,0 +1,6 @@
+[MASTER] 16:46:23.721 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.common.type.QuantileDigestParametricType. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 16:46:23.823 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 16:46:24.825 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 16:46:24.926 [main] ERROR TestGeneration - failed to write statistics data

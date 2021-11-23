@@ -1,0 +1,6 @@
+[MASTER] 00:08:50.393 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.elasticsearch.client.NodesResponse. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 00:08:50.408 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 00:08:50.508 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 00:08:50.611 [main] ERROR TestGeneration - failed to write statistics data

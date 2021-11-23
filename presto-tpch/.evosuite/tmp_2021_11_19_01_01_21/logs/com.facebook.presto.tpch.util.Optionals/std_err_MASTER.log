@@ -1,0 +1,5 @@
+[MASTER] 01:10:39.954 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.tpch.util.Optionals. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 01:10:40.063 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 01:10:40.164 [main] ERROR TestGeneration - failed to write statistics data

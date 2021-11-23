@@ -1,0 +1,5 @@
+[MASTER] 22:17:05.482 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.spi.relation.VariableReferenceExpression. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 22:17:05.583 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 22:17:05.685 [main] ERROR TestGeneration - failed to write statistics data

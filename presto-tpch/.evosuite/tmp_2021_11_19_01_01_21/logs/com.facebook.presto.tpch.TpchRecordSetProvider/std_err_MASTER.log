@@ -1,0 +1,5 @@
+[MASTER] 01:13:27.556 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.tpch.TpchRecordSetProvider. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 01:13:27.664 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 01:13:27.766 [main] ERROR TestGeneration - failed to write statistics data

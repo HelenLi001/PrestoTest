@@ -1,0 +1,96 @@
+* Starting client
+* Connecting to master process on port 7655
+* Analyzing classpath: 
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-thrift-api/target/classes
+  - /home/helen/.m2/repository/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar
+  - /home/helen/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar
+  - /home/helen/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar
+  - /home/helen/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+  - /home/helen/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
+  - /home/helen/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+  - /home/helen/.m2/repository/com/facebook/drift/drift-api/1.33/drift-api-1.33.jar
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spi/target/classes
+  - /home/helen/.m2/repository/io/airlift/units/1.3/units-1.3.jar
+  - /home/helen/.m2/repository/org/openjdk/jol/jol-core/0.2/jol-core-0.2.jar
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-common/target/classes
+  - /home/helen/.m2/repository/io/airlift/slice/0.38/slice-0.38.jar
+  - /home/helen/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-testng-services/target/classes
+  - /home/helen/.m2/repository/com/facebook/airlift/log/0.201/log-0.201.jar
+  - /home/helen/.m2/repository/com/facebook/airlift/concurrent/0.201/concurrent-0.201.jar
+  - /home/helen/.m2/repository/org/testng/testng/6.10/testng-6.10.jar
+  - /home/helen/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar
+  - /home/helen/.m2/repository/com/facebook/airlift/stats/0.201/stats-0.201.jar
+  - /home/helen/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.jar
+  - /home/helen/.m2/repository/org/weakref/jmxutils/1.19/jmxutils-1.19.jar
+* Finished analyzing classpath
+* Generating tests for class com.facebook.presto.thrift.api.datatypes.PrestoThriftTypeUtils
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 01:24:35.952 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-thrift-api/.evosuite/evosuite-seeds/com.facebook.presto.thrift.api.datatypes.PrestoThriftTypeUtils.seed
+* Loaded 0 tests from /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-thrift-api/.evosuite/evosuite-seeds/com.facebook.presto.thrift.api.datatypes.PrestoThriftTypeUtils.seed
+* Total number of test goals: 
+  - Line 81
+  - Branch 68
+  - Exception 0
+  - MutationFactory 342
+  - Output 16
+  - Method 7
+  - MethodNoException 7
+  - CBranchFitnessFactory 68
+* Using seed 1637313752917
+* Starting evolution
+[MASTER] 01:24:45.002 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 106 seconds more than allowed.
+* Search finished after 158s and 308 generations, 97652 statements, best individual has fitness: 407.09150326797385
+* Writing sequences to pool
+[MASTER] 01:27:22.674 [pool-2-thread-1] WARN  TimeController - Current phase MINIMIZATION could run up to 24s, but only 1s are left
+* Skipping minimization because not enough time is left
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 38%
+* Total number of goals: 81
+* Number of covered goals: 31
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 41%
+* Total number of goals: 68
+* Number of covered goals: 28
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 40%
+* Total number of goals: 342
+* Number of covered goals: 136
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 44%
+* Total number of goals: 16
+* Number of covered goals: 7
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 41%
+* Total number of goals: 68
+* Number of covered goals: 28
+* Generated 41 tests with total length 478
+* Resulting test suite's coverage: 56% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 01:27:23.247 [pool-2-thread-1] WARN  TimeController - Current phase ASSERTION_GENERATION could run up to 24s, but only 1s are left
+* Skipping assertion generation because not enough time is left
+* Compiling and checking tests
+[MASTER] 01:27:24.499 [pool-2-thread-1] WARN  TimeController - Current phase JUNIT_CHECK could run up to 24s, but only 0s are left
+[MASTER] 01:27:24.500 [pool-2-thread-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 24s, but only 0s are left

@@ -1,0 +1,5 @@
+[MASTER] 17:27:09.973 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.accumulo.serializers.AccumuloRowSerializer. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 17:27:10.074 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 17:27:10.175 [main] ERROR TestGeneration - failed to write statistics data

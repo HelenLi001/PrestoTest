@@ -1,0 +1,2 @@
+[MASTER] 17:46:42.524 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.lang.Comparable<T> : Type points to itself
+[MASTER] 17:46:46.325 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Optional<T> : Type points to itself

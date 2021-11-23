@@ -1,0 +1,7 @@
+[MASTER] 21:01:21.436 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.plugin.jdbc.optimization.function.OperatorTranslators. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 21:01:21.439 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 21:01:21.540 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 21:01:22.549 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 21:01:22.668 [main] ERROR TestGeneration - failed to write statistics data

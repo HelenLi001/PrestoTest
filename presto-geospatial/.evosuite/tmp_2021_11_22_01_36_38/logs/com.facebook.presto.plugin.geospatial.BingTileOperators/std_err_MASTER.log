@@ -1,0 +1,3 @@
+[MASTER] 01:44:09.723 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.plugin.geospatial.BingTileOperators. Clients have not finished yet, although a timeout occurred.
+ClientNode: WRITING_TESTS
+

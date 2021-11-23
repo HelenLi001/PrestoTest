@@ -1,0 +1,7 @@
+[MASTER] 02:29:08.094 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.password.file.EncryptionUtil. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 02:29:08.111 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 02:29:08.202 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 02:29:09.209 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 02:29:09.322 [main] ERROR TestGeneration - failed to write statistics data

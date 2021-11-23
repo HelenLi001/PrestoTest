@@ -1,0 +1,6 @@
+[MASTER] 15:42:53.774 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.common.Subfield. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 15:42:53.876 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 15:42:54.878 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 15:42:54.979 [main] ERROR TestGeneration - failed to write statistics data

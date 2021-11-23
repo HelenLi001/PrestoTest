@@ -1,0 +1,7 @@
+[MASTER] 01:47:28.662 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.plugin.geospatial.SpatialPartitioningStateSerializer. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 01:47:28.664 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 01:47:28.765 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 01:47:29.769 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 01:47:29.870 [main] ERROR TestGeneration - failed to write statistics data

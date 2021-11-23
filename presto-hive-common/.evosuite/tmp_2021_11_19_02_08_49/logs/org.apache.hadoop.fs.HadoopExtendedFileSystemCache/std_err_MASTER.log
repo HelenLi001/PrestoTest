@@ -1,0 +1,5 @@
+[MASTER] 02:18:35.236 [main] ERROR ExternalProcessHandler - Class org.apache.hadoop.fs.HadoopExtendedFileSystemCache. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 02:18:35.355 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 02:18:35.456 [main] ERROR TestGeneration - failed to write statistics data

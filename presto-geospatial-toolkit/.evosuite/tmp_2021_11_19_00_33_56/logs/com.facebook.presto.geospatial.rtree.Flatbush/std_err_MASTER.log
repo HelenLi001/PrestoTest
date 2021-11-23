@@ -1,0 +1,5 @@
+[MASTER] 00:42:16.715 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.geospatial.rtree.Flatbush. Clients have not finished yet, although a timeout occurred.
+ClientNode: WRITING_TESTS
+
+[MASTER] 00:42:16.842 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 00:42:16.955 [main] ERROR TestGeneration - failed to write statistics data

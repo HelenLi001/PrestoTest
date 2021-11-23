@@ -1,0 +1,5 @@
+[MASTER] 22:59:48.498 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.spi.SchemaUtil. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 22:59:48.610 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 22:59:48.712 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,5 @@
+[MASTER] 17:15:01.852 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.sql.tree.RevokeRoles. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 17:15:01.954 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 17:15:02.055 [main] ERROR TestGeneration - failed to write statistics data

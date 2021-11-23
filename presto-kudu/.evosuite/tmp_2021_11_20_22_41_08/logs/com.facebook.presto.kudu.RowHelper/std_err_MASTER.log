@@ -1,0 +1,3 @@
+[MASTER] 22:57:23.145 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.kudu.RowHelper. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

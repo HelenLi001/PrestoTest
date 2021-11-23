@@ -1,0 +1,5 @@
+[MASTER] 00:40:05.646 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.geospatial.KdbTree. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 00:40:05.757 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 00:40:05.866 [main] ERROR TestGeneration - failed to write statistics data

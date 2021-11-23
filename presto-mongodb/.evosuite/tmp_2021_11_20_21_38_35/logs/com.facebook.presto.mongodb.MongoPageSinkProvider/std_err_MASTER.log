@@ -1,0 +1,5 @@
+[MASTER] 21:58:06.011 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.mongodb.MongoPageSinkProvider. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 21:58:06.113 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 21:58:06.215 [main] ERROR TestGeneration - failed to write statistics data

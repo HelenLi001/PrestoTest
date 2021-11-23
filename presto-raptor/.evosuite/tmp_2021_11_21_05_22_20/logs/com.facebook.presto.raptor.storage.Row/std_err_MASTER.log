@@ -1,0 +1,3 @@
+[MASTER] 05:57:45.797 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.raptor.storage.Row. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

@@ -1,0 +1,7 @@
+[MASTER] 01:00:33.449 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.redis.RedisConnectorConfig. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 01:00:33.450 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 01:00:33.550 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 01:00:34.552 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 01:00:34.652 [main] ERROR TestGeneration - failed to write statistics data

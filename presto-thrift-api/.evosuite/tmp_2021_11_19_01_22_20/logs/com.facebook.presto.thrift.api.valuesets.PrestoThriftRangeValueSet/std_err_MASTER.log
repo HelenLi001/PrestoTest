@@ -1,0 +1,5 @@
+[MASTER] 02:05:06.459 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.thrift.api.valuesets.PrestoThriftRangeValueSet. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 02:05:06.578 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 02:05:06.701 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,127 @@
+[MASTER] 17:52:02.927 [TEST_EXECUTION_THREAD_0] ERROR FunctionalMockStatement - Failed to use Mockito on class com.facebook.presto.sql.tree.Table: null
+[MASTER] 17:52:08.298 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.sql.tree.NodeLocation due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.sql.tree.NodeLocation.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 17:52:08.298 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.sql.tree.Table due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.sql.tree.Table.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 17:52:08.353 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.sql.tree.Expression due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.sql.tree.Expression.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 17:52:10.448 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.sql.tree.AstVisitor due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.sql.tree.AstVisitor.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 17:52:15.961 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.sql.tree.DecimalLiteral due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.sql.tree.DecimalLiteral.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 17:52:17.673 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.sql.tree.LikePredicate due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.sql.tree.LikePredicate.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 17:52:19.492 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.sql.tree.ExternalBodyReference due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.sql.tree.ExternalBodyReference.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type

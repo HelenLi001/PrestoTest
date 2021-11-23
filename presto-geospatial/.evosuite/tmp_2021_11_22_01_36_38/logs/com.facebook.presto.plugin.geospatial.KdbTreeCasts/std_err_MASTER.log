@@ -1,0 +1,7 @@
+[MASTER] 01:48:51.586 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.plugin.geospatial.KdbTreeCasts. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 01:48:51.588 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 01:48:51.689 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 01:48:52.691 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 01:48:52.792 [main] ERROR TestGeneration - failed to write statistics data

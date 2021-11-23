@@ -1,0 +1,3 @@
+[MASTER] 01:13:14.860 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.teradata.functions.TeradataStringFunctions. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

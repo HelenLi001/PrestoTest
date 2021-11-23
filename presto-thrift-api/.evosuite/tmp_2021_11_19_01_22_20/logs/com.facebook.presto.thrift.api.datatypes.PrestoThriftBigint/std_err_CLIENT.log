@@ -1,0 +1,3 @@
+[MASTER] 01:42:27.219 [TEST_EXECUTION_THREAD_0] ERROR FunctionalMockStatement - Failed to use Mockito on interface com.facebook.presto.spi.RecordSet: null
+[MASTER] 01:42:27.883 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.facebook.presto.spi.RecordSet due to failed class initialization: Could not initialize class org.evosuite.shaded.org.mockito.internal.util.MockUtil
+[MASTER] 01:42:28.125 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.facebook.presto.common.type.Type due to failed class initialization: Could not initialize class org.evosuite.shaded.org.mockito.internal.util.MockUtil

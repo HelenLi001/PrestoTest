@@ -1,0 +1,7 @@
+[MASTER] 13:44:24.202 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.verifier.checksum.SimpleColumnChecksum. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 13:44:24.205 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 13:44:24.305 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 13:44:25.307 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 13:44:25.407 [main] ERROR TestGeneration - failed to write statistics data

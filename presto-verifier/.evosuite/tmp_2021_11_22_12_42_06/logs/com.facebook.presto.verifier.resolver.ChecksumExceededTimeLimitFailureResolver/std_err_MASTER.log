@@ -1,0 +1,5 @@
+[MASTER] 14:11:17.555 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.verifier.resolver.ChecksumExceededTimeLimitFailureResolver. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 14:11:17.664 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 14:11:17.765 [main] ERROR TestGeneration - failed to write statistics data

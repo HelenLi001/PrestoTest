@@ -1,0 +1,148 @@
+* Starting client
+* Connecting to master process on port 20121
+* Analyzing classpath: 
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-matching/target/classes
+  - /home/helen/.m2/repository/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar
+  - /home/helen/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+  - /home/helen/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar
+  - /home/helen/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar
+  - /home/helen/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+  - /home/helen/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-testng-services/target/classes
+  - /home/helen/.m2/repository/com/facebook/airlift/log/0.201/log-0.201.jar
+  - /home/helen/.m2/repository/io/airlift/units/1.3/units-1.3.jar
+  - /home/helen/.m2/repository/com/facebook/airlift/concurrent/0.201/concurrent-0.201.jar
+  - /home/helen/.m2/repository/org/testng/testng/6.10/testng-6.10.jar
+  - /home/helen/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar
+* Finished analyzing classpath
+* Generating tests for class com.facebook.presto.matching.DefaultMatcher
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 20:09:15.012 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-matching/.evosuite/evosuite-seeds/com.facebook.presto.matching.DefaultMatcher.seed
+* Loaded 0 tests from /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-matching/.evosuite/evosuite-seeds/com.facebook.presto.matching.DefaultMatcher.seed
+* Total number of test goals: 
+  - Line 18
+  - Branch 9
+  - Exception 0
+  - MutationFactory 2
+  - Output 12
+  - Method 7
+  - MethodNoException 7
+  - CBranchFitnessFactory 9
+* Using seed 1637294926671
+* Starting evolution
+[MASTER] 20:09:18.214 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 20 seconds more than allowed.
+[MASTER] 20:10:19.400 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: No generators of type class java.lang.Object
+[MASTER] 20:10:20.043 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 1, type java.lang.Class<java.util.Optional> is not assignable to java.lang.Class<java.util.Optional<java.lang.String>>
+[MASTER] 20:10:20.695 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 1, type java.util.function.Function<java.lang.Object, java.util.Optional<java.lang.Object>> is not assignable to java.util.function.Function<java.lang.Object, java.util.Optional<?>>
+[MASTER] 20:10:22.241 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for java.util.Optional<java.lang.Object> canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 20:10:22.592 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.util.Optional<java.lang.Object>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:22.636 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 1, type java.lang.Class<java.util.Optional> is not assignable to java.lang.Class<java.util.Optional<java.lang.Integer>>
+[MASTER] 20:10:22.871 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: No generators of type java.util.Optional<java.lang.Object>
+[MASTER] 20:10:23.723 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 7, type com.google.common.base.Function<java.lang.Integer, java.util.Optional<java.lang.Object>> is not assignable to com.google.common.base.Function<? super java.lang.Integer, ? extends java.util.Optional<java.lang.String>>
+[MASTER] 20:10:23.983 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 2, type com.google.common.base.Converter<java.lang.Object, java.util.Optional<java.lang.String>> is not assignable to java.util.function.Function<java.lang.Object, java.util.Optional<?>>
+[MASTER] 20:10:24.042 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.Property due to org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.String, java.util.Optional<java.lang.String>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:24.204 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, com.facebook.presto.matching.Match<java.lang.Integer>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:24.242 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.String, java.lang.Object> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:24.608 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class com.facebook.presto.matching.Captures canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:25.030 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.util.Optional<com.google.common.collect.BoundType>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:25.042 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.lang.Integer> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:25.308 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.util.Optional<java.lang.String>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:25.405 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 1, type com.google.common.base.Function<java.lang.Object, java.util.Optional<java.lang.String>> is not assignable to com.google.common.base.Function<? super java.lang.Object, ? extends java.util.Optional<com.google.common.collect.BoundType>>
+[MASTER] 20:10:25.439 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.String, java.util.Optional<java.lang.Object>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:25.451 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 1, type com.google.common.base.Function<java.lang.Object, java.util.Optional<com.google.common.collect.BoundType>> is not assignable to com.google.common.base.Function<? super java.lang.Object, ? extends java.util.Optional<java.lang.Integer>>
+[MASTER] 20:10:25.844 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.Property due to org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.util.Optional<java.lang.String>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:25.868 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 11, type com.google.common.base.Function<java.lang.Object, java.util.Optional<java.lang.Object>> is not assignable to com.google.common.base.Function<? super java.lang.String, ? extends java.util.Optional<java.lang.String>>
+[MASTER] 20:10:25.899 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.sql.SQLNonTransientConnectionException due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for org.evosuite.runtime.mock.java.lang.MockThrowable due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.sql.SQLSyntaxErrorException due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:10:25.994 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.pattern.CapturePattern due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.pattern.WithPattern due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:10:26.005 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:10:26.026 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.sql.SQLNonTransientConnectionException due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.sql.SQLTransientConnectionException due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.sql.SQLTransientException due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.sql.SQLTransientException due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:10:26.812 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 9, type com.google.common.base.Function<java.lang.Object, com.facebook.presto.matching.Match<com.google.common.collect.BoundType>> is not assignable to com.google.common.base.Function<? super java.lang.Object, ? extends com.facebook.presto.matching.Match<com.facebook.presto.matching.Match<java.util.Optional<java.lang.Object>>>>
+[MASTER] 20:10:26.856 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 1, type java.util.function.Function<java.lang.Object, java.util.Optional<java.lang.String>> is not assignable to java.util.function.Function<java.lang.Object, java.util.Optional<?>>
+[MASTER] 20:10:26.997 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, com.facebook.presto.matching.Match<com.google.common.collect.BoundType>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:27.047 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.sql.SQLNonTransientConnectionException due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.sql.SQLTransientException due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:10:27.185 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, com.facebook.presto.matching.Match<java.lang.Object>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:27.187 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.sql.SQLNonTransientConnectionException> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:27.266 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 4, type com.google.common.base.Converter<java.lang.Object, java.util.Optional<java.lang.String>> is not assignable to java.util.function.Function<java.lang.Object, java.util.Optional<?>>
+[MASTER] 20:10:27.300 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.Property due to org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 12, type com.google.common.base.Function<java.lang.Object, java.util.Optional<java.lang.String>> is not assignable to com.google.common.base.Function<? super java.lang.Object, ? extends java.util.Optional<java.sql.SQLNonTransientConnectionException>>
+[MASTER] 20:10:27.396 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, com.google.common.collect.BoundType> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:28.192 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.pattern.CapturePattern due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.pattern.WithPattern due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.Property due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:10:28.329 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.lang.String> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:28.403 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.Property due to org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.util.Optional<java.sql.SQLTransientConnectionException>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:28.842 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.pattern.FilterPattern due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.pattern.CapturePattern due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.pattern.WithPattern due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:10:28.930 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 2, type com.google.common.base.Function<java.lang.Object, java.util.Optional<com.google.common.collect.BoundType>> is not assignable to com.google.common.base.Function<? super java.lang.Object, ? extends java.util.Optional<java.io.PipedInputStream>>
+[MASTER] 20:10:28.957 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.Property due to org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 16, type com.google.common.base.Function<java.lang.Object, java.util.Optional<java.sql.SQLNonTransientConnectionException>> is not assignable to com.google.common.base.Function<? super java.lang.Object, ? extends java.util.Optional<java.io.InputStream>>
+[MASTER] 20:10:28.999 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.io.PipedInputStream> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:29.057 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 1, type com.google.common.base.Function<java.lang.Object, java.util.Optional<java.sql.SQLTransientConnectionException>> is not assignable to com.google.common.base.Function<? super java.lang.Object, ? extends java.util.Optional<com.google.common.collect.BoundType>>
+[MASTER] 20:10:29.074 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.Property due to org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 13, type com.google.common.base.Function<java.lang.Object, java.util.Optional<java.lang.Object>> is not assignable to com.google.common.base.Function<? super java.lang.Object, ? extends java.util.Optional<java.io.InputStream>>
+[MASTER] 20:10:29.420 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.Property due to org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.util.Optional<java.io.PipedInputStream>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:29.498 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.Property due to org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 13, type com.google.common.base.Function<java.lang.Object, java.util.Optional<java.sql.SQLNonTransientConnectionException>> is not assignable to com.google.common.base.Function<? super java.lang.Object, ? extends java.util.Optional<com.google.common.collect.BoundType>>
+[MASTER] 20:10:29.567 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.pattern.FilterPattern due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.pattern.WithPattern due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.Property due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:10:29.591 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 2, type com.google.common.base.Function<java.lang.Object, java.util.Optional<java.io.InputStream>> is not assignable to com.google.common.base.Function<? super java.lang.String, ? extends java.util.Optional<java.lang.String>>
+[MASTER] 20:10:29.598 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 15, type com.google.common.base.Function<java.lang.Object, java.util.Optional<java.sql.SQLNonTransientException>> is not assignable to com.google.common.base.Function<? super java.lang.Object, ? extends java.util.Optional<java.sql.SQLNonTransientConnectionException>>
+[MASTER] 20:10:29.690 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.util.Optional<java.sql.SQLTransientConnectionException>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:29.692 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.io.ObjectInputStream due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.io.PipedInputStream due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:10:30.084 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.util.Optional<java.sql.SQLNonTransientConnectionException>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:30.102 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.io.PushbackInputStream due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.io.PushbackInputStream due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.io.PipedInputStream due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:10:30.147 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.sql.SQLDataException due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.sql.SQLClientInfoException due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:10:30.161 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.pattern.FilterPattern due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.pattern.WithPattern due to org.evosuite.ga.ConstructionFailedException: Have no generator for com.facebook.presto.matching.Property<java.lang.Object, java.lang.Object> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:30.196 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.Property due to org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.util.Optional<java.lang.Integer>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:30.321 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.sql.SQLInvalidAuthorizationSpecException due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for java.sql.SQLTimeoutException due to org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 20:10:30.375 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Integer, java.util.Optional<java.sql.SQLNonTransientConnectionException>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:30.512 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 15, type com.google.common.base.Function<java.lang.Integer, java.util.Optional<java.lang.String>> is not assignable to com.google.common.base.Function<? super java.lang.Integer, ? extends java.util.Optional<java.lang.Integer>>
+[MASTER] 20:10:30.576 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.util.Optional<java.sql.SQLRecoverableException>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:30.637 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 6, type java.util.function.Function<java.lang.String, java.util.Optional<com.google.common.collect.BoundType>> is not assignable to java.util.function.Function<? super java.lang.String, ? extends java.util.Optional<java.lang.Integer>>
+[MASTER] 20:10:30.709 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.Property due to org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.util.Optional<java.sql.SQLNonTransientException>> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:30.784 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 13, type com.google.common.base.Function<java.lang.Object, java.util.Optional<java.sql.SQLTransientConnectionException>> is not assignable to com.google.common.base.Function<? super java.lang.Integer, ? extends java.util.Optional<java.io.InputStream>>
+[MASTER] 20:10:31.116 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.Property due to org.evosuite.ga.ConstructionFailedException: Error: VariableReference: Statement 8, type com.google.common.base.Function<java.lang.Object, java.util.Optional<java.lang.Object>> is not assignable to com.google.common.base.Function<? super java.lang.Object, ? extends java.util.Optional<java.sql.SQLTransientConnectionException>>
+[MASTER] 20:10:31.200 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.sql.SQLTransientConnectionException> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 20:10:31.202 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for com.facebook.presto.matching.Property due to org.evosuite.ga.ConstructionFailedException: Have no generator for com.google.common.base.Converter<java.lang.Object, java.lang.Integer> canUseFunctionalMocks=false, canBeMocked: true
+* Search finished after 76s and 19 generations, 9737 statements, best individual has fitness: 7.777777777777778
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 89%
+* Total number of goals: 18
+* Number of covered goals: 16
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 50%
+* Total number of goals: 12
+* Number of covered goals: 6
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 86%
+* Total number of goals: 7
+* Number of covered goals: 6
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Generated 15 tests with total length 74
+* Resulting test suite's coverage: 91% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 100%
+* Compiling and checking tests

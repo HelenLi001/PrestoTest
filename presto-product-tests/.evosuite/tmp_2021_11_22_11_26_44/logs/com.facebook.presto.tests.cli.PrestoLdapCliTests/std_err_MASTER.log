@@ -1,0 +1,6 @@
+[MASTER] 12:13:16.824 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.tests.cli.PrestoLdapCliTests. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 12:13:16.926 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 12:13:17.928 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 12:13:18.029 [main] ERROR TestGeneration - failed to write statistics data

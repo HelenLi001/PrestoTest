@@ -1,0 +1,5 @@
+* Starting client
+* Connecting to master process on port 13548
+* Analyzing classpath: 
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-hive-common/target/classes
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-common/target/classes

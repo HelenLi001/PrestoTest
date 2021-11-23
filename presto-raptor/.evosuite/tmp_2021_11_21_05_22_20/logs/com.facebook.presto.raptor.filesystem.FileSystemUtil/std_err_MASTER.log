@@ -1,0 +1,6 @@
+[MASTER] 07:02:42.456 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.raptor.filesystem.FileSystemUtil. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 07:02:42.479 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 07:02:42.575 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 07:02:42.691 [main] ERROR TestGeneration - failed to write statistics data

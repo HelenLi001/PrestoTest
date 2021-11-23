@@ -1,0 +1,3 @@
+[MASTER] 12:42:40.909 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.rcfile.AircompressorCompressor. Clients have not finished yet, although a timeout occurred.
+ClientNode: ASSERTION_GENERATION
+

@@ -1,0 +1,70 @@
+* Starting client
+* Connecting to master process on port 7534
+* Analyzing classpath: 
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-classloader-interface/target/classes
+  - /home/helen/.m2/repository/com/facebook/presto/spark/spark-core/2.0.2-6/spark-core-2.0.2-6.jar
+* Finished analyzing classpath
+* Generating tests for class com.facebook.presto.spark.classloader_interface.PrestoSparkTaskInputs
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 7 tests from /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-classloader-interface/.evosuite/evosuite-seeds/com.facebook.presto.spark.classloader_interface.PrestoSparkTaskInputs.seed
+* Total number of test goals: 
+  - Line 8
+  - Branch 4
+  - Exception 0
+  - MutationFactory 0
+  - Output 18
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 4
+* Using seed 1637274759223
+* Starting evolution
+[MASTER] 14:32:52.685 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 8 seconds more than allowed.
+* Search finished after 31s and 51 generations, 0 statements, best individual has fitness: 35.888888888888886
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 0%
+* Total number of goals: 8
+* Number of covered goals: 0
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 0%
+* Total number of goals: 4
+* Number of covered goals: 0
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100% (no goals)
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100% (no goals)
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 0%
+* Total number of goals: 18
+* Number of covered goals: 0
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 0%
+* Total number of goals: 4
+* Number of covered goals: 0
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 0%
+* Total number of goals: 4
+* Number of covered goals: 0
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 0%
+* Total number of goals: 4
+* Number of covered goals: 0
+* Generated 0 tests with total length 0
+* Resulting test suite's coverage: 25% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+* Writing JUnit test case 'PrestoSparkTaskInputs_ESTest' to /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-classloader-interface/.evosuite/tmp_2021_11_18_14_24_49/tests
+* Done!
+

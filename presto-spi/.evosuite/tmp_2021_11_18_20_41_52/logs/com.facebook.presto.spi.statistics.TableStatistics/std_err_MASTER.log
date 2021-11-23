@@ -1,0 +1,6 @@
+[MASTER] 21:50:16.983 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.spi.statistics.TableStatistics. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 21:50:17.086 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 21:50:18.088 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 21:50:18.189 [main] ERROR TestGeneration - failed to write statistics data

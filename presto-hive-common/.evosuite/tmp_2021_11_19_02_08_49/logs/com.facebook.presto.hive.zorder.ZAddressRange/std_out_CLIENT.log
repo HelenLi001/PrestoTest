@@ -1,0 +1,48 @@
+* Starting client
+* Connecting to master process on port 17602
+* Analyzing classpath: 
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-hive-common/target/classes
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-common/target/classes
+  - /home/helen/.m2/repository/io/airlift/slice/0.38/slice-0.38.jar
+  - /home/helen/.m2/repository/com/facebook/drift/drift-api/1.33/drift-api-1.33.jar
+  - /home/helen/.m2/repository/org/openjdk/jol/jol-core/0.2/jol-core-0.2.jar
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spi/target/classes
+  - /home/helen/.m2/repository/com/facebook/presto/hadoop/hadoop-apache2/2.7.4-9/hadoop-apache2-2.7.4-9.jar
+  - /home/helen/.m2/repository/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar
+  - /home/helen/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+  - /home/helen/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar
+  - /home/helen/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar
+  - /home/helen/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+  - /home/helen/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
+  - /home/helen/.m2/repository/io/airlift/units/1.3/units-1.3.jar
+  - /home/helen/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar
+  - /home/helen/.m2/repository/org/weakref/jmxutils/1.19/jmxutils-1.19.jar
+  - /home/helen/.m2/repository/org/testng/testng/6.10/testng-6.10.jar
+  - /home/helen/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar
+* Finished analyzing classpath
+* Generating tests for class com.facebook.presto.hive.zorder.ZAddressRange
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 02:12:57.699 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-hive-common/.evosuite/evosuite-seeds/com.facebook.presto.hive.zorder.ZAddressRange.seed
+* Loaded 0 tests from /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-hive-common/.evosuite/evosuite-seeds/com.facebook.presto.hive.zorder.ZAddressRange.seed
+* Total number of test goals: 
+  - Line 13
+  - Branch 14
+  - Exception 0
+  - MutationFactory 19
+  - Output 6
+  - Method 5
+  - MethodNoException 5
+  - CBranchFitnessFactory 14
+* Using seed 1637316676106
+* Starting evolution
+[MASTER] 02:13:03.811 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 97 seconds more than allowed.
+[MASTER] 02:13:03.811 [pool-2-thread-1] WARN  TimeController - Current phase SEARCH could run up to 60s, but only 6s are left

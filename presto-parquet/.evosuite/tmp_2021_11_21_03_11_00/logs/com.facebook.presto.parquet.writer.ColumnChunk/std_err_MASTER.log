@@ -1,0 +1,6 @@
+[MASTER] 05:08:46.613 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.parquet.writer.ColumnChunk. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 05:08:46.626 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 05:08:46.730 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 05:08:46.832 [main] ERROR TestGeneration - failed to write statistics data

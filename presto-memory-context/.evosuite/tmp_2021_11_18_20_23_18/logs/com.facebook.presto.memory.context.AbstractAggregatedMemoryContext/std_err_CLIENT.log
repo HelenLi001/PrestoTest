@@ -1,0 +1,1 @@
+[MASTER] 20:30:00.119 [TEST_EXECUTION_THREAD_0] ERROR FunctionalMockStatement - Failed to use Mockito on interface com.facebook.presto.memory.context.MemoryReservationHandler: null

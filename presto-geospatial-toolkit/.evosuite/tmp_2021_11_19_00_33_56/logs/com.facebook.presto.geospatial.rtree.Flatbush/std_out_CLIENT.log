@@ -1,0 +1,5 @@
+* Starting client
+* Connecting to master process on port 11871
+* Analyzing classpath: 
+[MASTER] 00:42:04.684 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 87 seconds more than allowed.
+* Writing JUnit test case 'Flatbush_ESTest' to /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-geospatial-toolkit/.evosuite/tmp_2021_11_19_00_33_56/tests

@@ -1,0 +1,4 @@
+[MASTER] 03:40:42.734 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.parquet.batchreader.TimestampFlatBatchReader. Clients have not finished yet, although a timeout occurred.
+ClientNode: COVERAGE_ANALYSIS
+
+[MASTER] 03:40:42.739 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed

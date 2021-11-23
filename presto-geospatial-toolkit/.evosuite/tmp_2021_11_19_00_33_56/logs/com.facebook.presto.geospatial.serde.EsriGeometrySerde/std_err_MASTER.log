@@ -1,0 +1,5 @@
+[MASTER] 00:37:37.974 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.geospatial.serde.EsriGeometrySerde. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 00:37:38.078 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 00:37:38.187 [main] ERROR TestGeneration - failed to write statistics data

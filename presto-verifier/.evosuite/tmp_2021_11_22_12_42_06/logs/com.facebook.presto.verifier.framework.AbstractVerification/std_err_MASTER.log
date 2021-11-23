@@ -1,0 +1,6 @@
+[MASTER] 12:56:50.246 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.verifier.framework.AbstractVerification. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 12:56:50.349 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 12:56:51.351 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 12:56:51.452 [main] ERROR TestGeneration - failed to write statistics data

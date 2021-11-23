@@ -1,0 +1,3 @@
+[MASTER] 21:44:03.072 [TEST_EXECUTION_THREAD_0] ERROR FunctionalMockStatement - Failed to use Mockito on class com.facebook.presto.spi.ConnectorTableMetadata: null
+[MASTER] 21:44:03.151 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.spi.ConnectorTableMetadata due to failed class initialization: Could not initialize class org.evosuite.shaded.org.mockito.internal.util.MockUtil
+[MASTER] 21:44:03.166 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on interface java.lang.Iterable due to failed class initialization: Could not initialize class org.evosuite.shaded.org.mockito.internal.util.MockUtil

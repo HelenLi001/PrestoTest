@@ -1,0 +1,6 @@
+[MASTER] 15:53:50.829 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.common.block.MapBlockEncoding. Clients have not finished yet, although a timeout occurred.
+ClientNode: COVERAGE_ANALYSIS
+
+[MASTER] 15:53:50.931 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 15:53:51.933 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 15:53:52.034 [main] ERROR TestGeneration - failed to write statistics data

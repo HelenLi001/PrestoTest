@@ -1,0 +1,5 @@
+[MASTER] 11:41:36.498 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.orc.DwrfAwareStripeMetadataSourceFactory. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 11:41:36.600 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 11:41:36.701 [main] ERROR TestGeneration - failed to write statistics data

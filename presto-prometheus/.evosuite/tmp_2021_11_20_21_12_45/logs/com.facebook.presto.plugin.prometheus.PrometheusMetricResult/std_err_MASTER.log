@@ -1,0 +1,5 @@
+[MASTER] 21:31:30.572 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.plugin.prometheus.PrometheusMetricResult. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 21:31:30.679 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 21:31:30.780 [main] ERROR TestGeneration - failed to write statistics data

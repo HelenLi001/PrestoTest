@@ -1,0 +1,5 @@
+[MASTER] 16:26:27.130 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.common.type.TimeType. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 16:26:27.231 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 16:26:27.332 [main] ERROR TestGeneration - failed to write statistics data

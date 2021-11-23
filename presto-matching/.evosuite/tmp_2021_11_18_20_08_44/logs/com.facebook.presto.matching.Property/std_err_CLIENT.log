@@ -1,0 +1,2 @@
+[MASTER] 20:22:04.430 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.PriorityQueue<E> : Type points to itself
+[MASTER] 20:22:23.141 [TEST_EXECUTION_THREAD_0] ERROR FunctionalMockStatement - Failed to use Mockito on interface java.util.function.Function: null

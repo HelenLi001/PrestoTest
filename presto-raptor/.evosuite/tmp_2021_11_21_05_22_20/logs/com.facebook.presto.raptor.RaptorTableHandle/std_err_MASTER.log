@@ -1,0 +1,6 @@
+[MASTER] 06:49:57.952 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.raptor.RaptorTableHandle. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 06:49:57.954 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 06:49:58.054 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 06:49:58.155 [main] ERROR TestGeneration - failed to write statistics data

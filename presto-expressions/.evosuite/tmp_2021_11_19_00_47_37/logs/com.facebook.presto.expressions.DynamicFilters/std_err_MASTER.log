@@ -1,0 +1,5 @@
+[MASTER] 00:52:43.940 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.expressions.DynamicFilters. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 00:52:44.043 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 00:52:44.145 [main] ERROR TestGeneration - failed to write statistics data

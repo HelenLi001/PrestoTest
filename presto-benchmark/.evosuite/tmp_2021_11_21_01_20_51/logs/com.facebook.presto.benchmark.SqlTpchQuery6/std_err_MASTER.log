@@ -1,0 +1,6 @@
+[MASTER] 01:56:18.290 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.benchmark.SqlTpchQuery6. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 01:56:18.297 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 01:56:18.392 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 01:56:18.493 [main] ERROR TestGeneration - failed to write statistics data

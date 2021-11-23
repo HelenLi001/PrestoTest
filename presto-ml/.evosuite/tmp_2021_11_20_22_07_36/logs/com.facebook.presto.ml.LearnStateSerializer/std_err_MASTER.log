@@ -1,0 +1,7 @@
+[MASTER] 22:35:51.449 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.ml.LearnStateSerializer. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 22:35:51.451 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 22:35:51.552 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 22:35:52.557 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 22:35:52.659 [main] ERROR TestGeneration - failed to write statistics data

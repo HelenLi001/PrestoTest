@@ -1,0 +1,5 @@
+[MASTER] 14:51:57.299 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.benchmark.source.PhaseSpecificationsColumnMapper. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 14:51:57.403 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 14:51:57.504 [main] ERROR TestGeneration - failed to write statistics data

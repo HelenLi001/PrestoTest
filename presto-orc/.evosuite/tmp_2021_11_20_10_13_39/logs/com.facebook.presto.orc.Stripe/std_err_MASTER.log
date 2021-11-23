@@ -1,0 +1,4 @@
+[MASTER] 12:07:39.018 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.orc.Stripe. Clients have not finished yet, although a timeout occurred.
+ClientNode: ASSERTION_GENERATION
+
+[MASTER] 12:07:39.020 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed

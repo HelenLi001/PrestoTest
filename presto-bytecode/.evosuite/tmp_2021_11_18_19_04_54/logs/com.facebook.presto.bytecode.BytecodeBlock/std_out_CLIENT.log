@@ -1,0 +1,93 @@
+* Starting client
+* Connecting to master process on port 9119
+* Analyzing classpath: 
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-bytecode/target/classes
+  - /home/helen/.m2/repository/org/ow2/asm/asm/9.0/asm-9.0.jar
+  - /home/helen/.m2/repository/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar
+  - /home/helen/.m2/repository/org/ow2/asm/asm-util/9.0/asm-util-9.0.jar
+  - /home/helen/.m2/repository/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar
+  - /home/helen/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+  - /home/helen/.m2/repository/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar
+  - /home/helen/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar
+  - /home/helen/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar
+  - /home/helen/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+  - /home/helen/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
+  - /home/helen/.m2/repository/io/airlift/slice/0.38/slice-0.38.jar
+  - /home/helen/.m2/repository/org/openjdk/jol/jol-core/0.2/jol-core-0.2.jar
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-testng-services/target/classes
+  - /home/helen/.m2/repository/com/facebook/airlift/log/0.201/log-0.201.jar
+  - /home/helen/.m2/repository/io/airlift/units/1.3/units-1.3.jar
+  - /home/helen/.m2/repository/com/facebook/airlift/concurrent/0.201/concurrent-0.201.jar
+  - /home/helen/.m2/repository/org/testng/testng/6.10/testng-6.10.jar
+  - /home/helen/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar
+  - /home/helen/.m2/repository/org/assertj/assertj-core/3.8.0/assertj-core-3.8.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.facebook.presto.bytecode.BytecodeBlock
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 19:05:28.216 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-bytecode/.evosuite/evosuite-seeds/com.facebook.presto.bytecode.BytecodeBlock.seed
+* Loaded 0 tests from /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-bytecode/.evosuite/evosuite-seeds/com.facebook.presto.bytecode.BytecodeBlock.seed
+* Total number of test goals: 
+  - Line 317
+  - Branch 241
+  - Exception 0
+  - MutationFactory 149
+  - Output 387
+  - Method 131
+  - MethodNoException 131
+  - CBranchFitnessFactory 241
+* Using seed 1637291099600
+* Starting evolution
+* Search finished after 255s and 212 generations, 135964 statements, best individual has fitness: 618.9169435215947
+* Writing sequences to pool
+[MASTER] 19:10:35.407 [pool-2-thread-1] WARN  TimeController - Phase SEARCH lasted too long, 53 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 87%
+* Total number of goals: 317
+* Number of covered goals: 275
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 65%
+* Total number of goals: 241
+* Number of covered goals: 156
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 85
+* Number of covered goals: 85
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 81%
+* Total number of goals: 149
+* Number of covered goals: 121
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 30%
+* Total number of goals: 387
+* Number of covered goals: 117
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 96%
+* Total number of goals: 131
+* Number of covered goals: 126
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 89%
+* Total number of goals: 131
+* Number of covered goals: 117
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 65%
+* Total number of goals: 241
+* Number of covered goals: 156
+* Generated 199 tests with total length 1018
+* Resulting test suite's coverage: 77% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 14%
+* Compiling and checking tests
+* Writing JUnit test case 'BytecodeBlock_ESTest' to /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-bytecode/.evosuite/tmp_2021_11_18_19_04_54/tests
+* Done!
+

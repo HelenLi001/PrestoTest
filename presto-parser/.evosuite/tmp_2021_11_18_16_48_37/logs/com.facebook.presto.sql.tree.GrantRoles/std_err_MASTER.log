@@ -1,0 +1,6 @@
+[MASTER] 17:18:01.197 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.sql.tree.GrantRoles. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 17:18:01.299 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 17:18:02.301 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 17:18:02.402 [main] ERROR TestGeneration - failed to write statistics data

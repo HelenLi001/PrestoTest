@@ -1,0 +1,3 @@
+[MASTER] 01:57:36.267 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.functionNamespace.mysql.SqlInvokedFunctionRowMapper. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

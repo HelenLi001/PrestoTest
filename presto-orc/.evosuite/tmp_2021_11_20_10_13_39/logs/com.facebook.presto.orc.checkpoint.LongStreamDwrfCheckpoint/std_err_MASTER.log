@@ -1,0 +1,6 @@
+[MASTER] 11:49:57.485 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.orc.checkpoint.LongStreamDwrfCheckpoint. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 11:49:57.587 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 11:49:58.588 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 11:49:58.689 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,5 @@
+[MASTER] 02:08:31.365 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.udf.thrift.TestingThriftUdfServer. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 02:08:31.467 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 02:08:31.568 [main] ERROR TestGeneration - failed to write statistics data

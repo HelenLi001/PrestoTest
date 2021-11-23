@@ -1,0 +1,7 @@
+* Starting client
+* Connecting to master process on port 18233
+* Analyzing classpath: 
+[MASTER] 00:41:54.073 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 86 seconds more than allowed.
+* Writing JUnit test case 'GeometryType_ESTest' to /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-geospatial-toolkit/.evosuite/tmp_2021_11_19_00_33_56/tests
+* Error while initializing target class: java.lang.ExceptionInInitializerError
+[MASTER] 00:42:11.130 [pool-2-thread-1] WARN  TimeController - Phase WRITING_TESTS lasted too long, 7 seconds more than allowed.

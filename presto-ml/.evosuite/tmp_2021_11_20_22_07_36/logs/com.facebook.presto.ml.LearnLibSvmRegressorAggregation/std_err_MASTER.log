@@ -1,0 +1,5 @@
+[MASTER] 22:29:05.484 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.ml.LearnLibSvmRegressorAggregation. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 22:29:05.594 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 22:29:05.696 [main] ERROR TestGeneration - failed to write statistics data

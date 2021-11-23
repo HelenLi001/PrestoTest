@@ -1,0 +1,6 @@
+[MASTER] 23:10:41.215 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.kudu.KuduModule. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 23:10:41.222 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 23:10:41.317 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 23:10:41.419 [main] ERROR TestGeneration - failed to write statistics data

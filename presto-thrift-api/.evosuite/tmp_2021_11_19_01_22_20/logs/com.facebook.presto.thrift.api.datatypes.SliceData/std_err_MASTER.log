@@ -1,0 +1,6 @@
+[MASTER] 01:31:08.555 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.thrift.api.datatypes.SliceData. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 01:31:08.658 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 01:31:09.663 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 01:31:09.767 [main] ERROR TestGeneration - failed to write statistics data

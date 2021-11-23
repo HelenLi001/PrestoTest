@@ -1,0 +1,50 @@
+[MASTER] 20:09:19.559 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for com.facebook.presto.matching.Match<T> : Type points to itself
+[MASTER] 20:09:36.692 [TEST_EXECUTION_THREAD_0] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.matching.pattern.FilterPattern due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.matching.pattern.FilterPattern.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 20:09:49.402 [TEST_EXECUTION_THREAD_2] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.matching.pattern.WithPattern due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.matching.pattern.WithPattern.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 20:10:22.245 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for com.facebook.presto.matching.pattern.TypeOfPattern<T> : Type points to itself
+[MASTER] 20:10:22.246 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for com.facebook.presto.matching.pattern.CapturePattern<T> : Type points to itself
+[MASTER] 20:10:22.247 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for com.facebook.presto.matching.pattern.WithPattern<T> : Type points to itself
+[MASTER] 20:10:22.247 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for com.facebook.presto.matching.pattern.FilterPattern<T> : Type points to itself
+[MASTER] 20:10:22.248 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for com.facebook.presto.matching.pattern.EqualsPattern<T> : Type points to itself
+[MASTER] 20:10:22.248 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for com.facebook.presto.matching.Pattern<T> : Type points to itself
+[MASTER] 20:10:22.265 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Predicate<T> : Type points to itself
+[MASTER] 20:10:22.549 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for com.facebook.presto.matching.Property<F, T> : Type points to itself
+[MASTER] 20:10:22.552 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for com.facebook.presto.matching.Capture<T> : Type points to itself
+[MASTER] 20:10:24.930 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 20:10:25.794 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 20:10:28.817 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 20:10:30.343 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.ArrayList<E> : Type points to itself

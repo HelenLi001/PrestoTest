@@ -1,0 +1,3 @@
+[MASTER] 20:35:31.706 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.spark.launcher.LauncherUtils. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

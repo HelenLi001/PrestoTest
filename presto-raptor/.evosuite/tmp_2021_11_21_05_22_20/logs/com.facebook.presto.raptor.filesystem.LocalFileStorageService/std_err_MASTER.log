@@ -1,0 +1,5 @@
+[MASTER] 06:29:53.520 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.raptor.filesystem.LocalFileStorageService. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 06:29:53.623 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 06:29:53.725 [main] ERROR TestGeneration - failed to write statistics data

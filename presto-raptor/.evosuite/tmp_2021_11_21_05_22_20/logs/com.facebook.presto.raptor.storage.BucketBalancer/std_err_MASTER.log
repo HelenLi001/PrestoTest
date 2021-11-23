@@ -1,0 +1,7 @@
+[MASTER] 06:17:22.377 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.raptor.storage.BucketBalancer. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 06:17:22.380 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 06:17:22.481 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 06:17:23.484 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 06:17:23.592 [main] ERROR TestGeneration - failed to write statistics data

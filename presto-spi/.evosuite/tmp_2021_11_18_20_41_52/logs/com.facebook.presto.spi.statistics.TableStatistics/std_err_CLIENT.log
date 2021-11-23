@@ -1,0 +1,8 @@
+[MASTER] 21:49:22.988 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 21:49:23.789 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Optional<T> : Type points to itself
+[MASTER] 21:49:31.801 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.spi.statistics.DoubleRange due to failed class initialization: Could not initialize class org.evosuite.shaded.org.mockito.internal.util.MockUtil
+[MASTER] 21:49:31.802 [TEST_EXECUTION_THREAD_0] ERROR FunctionalMockStatement - Failed to use Mockito on class com.facebook.presto.spi.statistics.DoubleRange: null
+[MASTER] 21:49:32.194 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.google.common.hash.Funnel due to failed class initialization: Could not initialize class org.evosuite.shaded.org.mockito.internal.util.MockUtil
+[MASTER] 21:49:33.981 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 21:49:34.004 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on interface java.util.function.BiConsumer due to failed class initialization: Could not initialize class org.evosuite.shaded.org.mockito.internal.util.MockUtil
+[MASTER] 21:49:52.872 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.google.common.base.Function due to failed class initialization: Could not initialize class org.evosuite.shaded.org.mockito.internal.util.MockUtil

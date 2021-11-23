@@ -1,0 +1,6 @@
+[MASTER] 22:27:59.567 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.ml.ClassifierFeatureTransformer. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 22:27:59.671 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 22:28:00.675 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 22:28:00.778 [main] ERROR TestGeneration - failed to write statistics data

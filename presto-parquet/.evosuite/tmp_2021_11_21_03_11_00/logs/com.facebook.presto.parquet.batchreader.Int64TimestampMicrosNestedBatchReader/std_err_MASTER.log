@@ -1,0 +1,7 @@
+[MASTER] 03:58:29.497 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.parquet.batchreader.Int64TimestampMicrosNestedBatchReader. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 03:58:29.506 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 03:58:29.605 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 03:58:30.608 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 03:58:30.710 [main] ERROR TestGeneration - failed to write statistics data

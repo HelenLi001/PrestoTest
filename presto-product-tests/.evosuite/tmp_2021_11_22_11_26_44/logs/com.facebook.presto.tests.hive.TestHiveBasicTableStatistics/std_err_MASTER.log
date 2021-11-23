@@ -1,0 +1,3 @@
+[MASTER] 11:49:42.304 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.tests.hive.TestHiveBasicTableStatistics. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

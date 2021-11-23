@@ -1,0 +1,86 @@
+* Starting client
+* Connecting to master process on port 18573
+* Analyzing classpath: 
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-matching/target/classes
+  - /home/helen/.m2/repository/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar
+  - /home/helen/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+  - /home/helen/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar
+  - /home/helen/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar
+  - /home/helen/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+  - /home/helen/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-testng-services/target/classes
+  - /home/helen/.m2/repository/com/facebook/airlift/log/0.201/log-0.201.jar
+  - /home/helen/.m2/repository/io/airlift/units/1.3/units-1.3.jar
+  - /home/helen/.m2/repository/com/facebook/airlift/concurrent/0.201/concurrent-0.201.jar
+  - /home/helen/.m2/repository/org/testng/testng/6.10/testng-6.10.jar
+  - /home/helen/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar
+* Finished analyzing classpath
+* Generating tests for class com.facebook.presto.matching.PatternVisitor
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 20:14:06.250 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-matching/.evosuite/evosuite-seeds/com.facebook.presto.matching.PatternVisitor.seed
+* Loaded 0 tests from /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-matching/.evosuite/evosuite-seeds/com.facebook.presto.matching.PatternVisitor.seed
+* Total number of test goals: 
+  - Line 4
+  - Branch 2
+  - Exception 0
+  - MutationFactory 3
+  - Output 0
+  - Method 6
+  - MethodNoException 6
+  - CBranchFitnessFactory 2
+* Using seed 1637295207305
+* Starting evolution
+[MASTER] 20:14:09.377 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 33 seconds more than allowed.
+* Search finished after 54s and 1273 generations, 67944 statements, best individual has fitness: 18.892857142857142
+* Writing sequences to pool
+[MASTER] 20:15:02.097 [pool-2-thread-1] WARN  TimeController - Current phase MINIMIZATION could run up to 8s, but only 4s are left
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 25%
+* Total number of goals: 4
+* Number of covered goals: 1
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 0%
+* Total number of goals: 2
+* Number of covered goals: 0
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 0%
+* Total number of goals: 3
+* Number of covered goals: 0
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 0%
+* Total number of goals: 6
+* Number of covered goals: 0
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 0%
+* Total number of goals: 2
+* Number of covered goals: 0
+* Generated 6 tests with total length 12
+* Resulting test suite's coverage: 41% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 20:15:02.610 [pool-2-thread-1] WARN  TimeController - Current phase ASSERTION_GENERATION could run up to 8s, but only 3s are left
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+[MASTER] 20:15:05.823 [pool-2-thread-1] WARN  TimeController - Current phase JUNIT_CHECK could run up to 8s, but only 0s are left
+[MASTER] 20:15:05.824 [pool-2-thread-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 8s, but only 0s are left
+* Writing JUnit test case 'PatternVisitor_ESTest' to /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-matching/.evosuite/tmp_2021_11_18_20_08_44/tests

@@ -1,0 +1,29 @@
+[MASTER] 20:40:15.422 [pool-2-thread-1] ERROR ClientNodeImpl - Error when generating tests for: com.facebook.presto.spark.launcher.PrestoSparkDistribution with seed 1637296761297. Configuration id : default
+java.lang.NoClassDefFoundError: org/apache/hadoop/conf/Configuration
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[na:1.8.0_292]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701) ~[na:1.8.0_292]
+	at java.lang.Class.privateGetPublicMethods(Class.java:2902) ~[na:1.8.0_292]
+	at java.lang.Class.getMethods(Class.java:1615) ~[na:1.8.0_292]
+	at org.evosuite.assertion.InspectorManager.determineInspectors(InspectorManager.java:234) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.assertion.InspectorManager.getInspectors(InspectorManager.java:259) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.coverage.io.output.OutputCoverageFactory.getCoverageGoals(OutputCoverageFactory.java:127) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.coverage.io.output.OutputCoverageSuiteFitness.determineCoverageGoals(OutputCoverageSuiteFitness.java:72) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.coverage.io.output.OutputCoverageSuiteFitness.<init>(OutputCoverageSuiteFitness.java:63) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.coverage.FitnessFunctions.getFitnessFunction(FitnessFunctions.java:125) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.strategy.TestGenerationStrategy.getFitnessFunctions(TestGenerationStrategy.java:87) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.strategy.WholeTestSuiteStrategy.generateTests(WholeTestSuiteStrategy.java:68) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:653) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:236) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_292]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_292]
+Caused by: java.lang.ClassNotFoundException: Class 'org/apache/hadoop/conf/Configuration.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-master-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'org/apache/hadoop/conf/Configuration.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-master-1.0.6.jar:1.0.6]
+	... 21 common frames omitted

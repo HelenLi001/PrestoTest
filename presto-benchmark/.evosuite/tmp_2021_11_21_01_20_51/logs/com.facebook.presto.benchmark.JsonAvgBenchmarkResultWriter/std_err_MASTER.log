@@ -1,0 +1,5 @@
+[MASTER] 01:45:13.933 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.benchmark.JsonAvgBenchmarkResultWriter. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 01:45:14.035 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 01:45:14.136 [main] ERROR TestGeneration - failed to write statistics data

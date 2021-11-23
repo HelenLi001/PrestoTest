@@ -1,0 +1,6 @@
+[MASTER] 20:21:28.004 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.matching.pattern.WithPattern. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 20:21:28.107 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 20:21:29.109 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 20:21:29.209 [main] ERROR TestGeneration - failed to write statistics data

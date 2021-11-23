@@ -1,0 +1,6 @@
+[MASTER] 15:55:43.610 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.common.block.ShortArrayBlockEncoding. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 15:55:43.712 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 15:55:44.715 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 15:55:44.816 [main] ERROR TestGeneration - failed to write statistics data

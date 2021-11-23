@@ -1,0 +1,5 @@
+[MASTER] 10:29:55.664 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.orc.StripeReader. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 10:29:55.766 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 10:29:55.866 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,6 @@
+[MASTER] 14:57:15.246 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.benchmark.source.MySqlBenchmarkSuiteConfig. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 14:57:15.249 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 14:57:15.382 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 14:57:15.490 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,6 @@
+[MASTER] 13:58:45.042 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.hive.metastore.glue.GlueHiveMetastoreConfig. Clients have not finished yet, although a timeout occurred.
+ClientNode: COVERAGE_ANALYSIS
+
+[MASTER] 13:58:45.145 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 13:58:46.147 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 13:58:46.248 [main] ERROR TestGeneration - failed to write statistics data

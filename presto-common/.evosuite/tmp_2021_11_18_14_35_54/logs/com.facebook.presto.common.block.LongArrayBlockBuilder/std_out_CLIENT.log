@@ -1,0 +1,6 @@
+* Starting client
+* Connecting to master process on port 16260
+* Analyzing classpath: 
+[MASTER] 15:08:55.730 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 2 seconds more than allowed.
+* Writing JUnit test case 'LongArrayBlockBuilder_ESTest' to /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-common/.evosuite/tmp_2021_11_18_14_35_54/tests
+* Error while initializing target class: java.lang.ExceptionInInitializerError

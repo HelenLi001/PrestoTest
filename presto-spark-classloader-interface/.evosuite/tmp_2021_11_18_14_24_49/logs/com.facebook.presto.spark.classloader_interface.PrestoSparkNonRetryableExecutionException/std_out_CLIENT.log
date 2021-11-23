@@ -1,0 +1,73 @@
+* Starting client
+* Connecting to master process on port 6276
+* Analyzing classpath: 
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-classloader-interface/target/classes
+  - /home/helen/.m2/repository/com/facebook/presto/spark/spark-core/2.0.2-6/spark-core-2.0.2-6.jar
+* Finished analyzing classpath
+* Generating tests for class com.facebook.presto.spark.classloader_interface.PrestoSparkNonRetryableExecutionException
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 14:29:42.100 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-classloader-interface/.evosuite/evosuite-seeds/com.facebook.presto.spark.classloader_interface.PrestoSparkNonRetryableExecutionException.seed
+* Loaded 0 tests from /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-classloader-interface/.evosuite/evosuite-seeds/com.facebook.presto.spark.classloader_interface.PrestoSparkNonRetryableExecutionException.seed
+* Total number of test goals: 
+  - Line 2
+  - Branch 1
+  - Exception 0
+  - MutationFactory 0
+  - Output 0
+  - Method 1
+  - MethodNoException 1
+  - CBranchFitnessFactory 1
+* Using seed 1637274571259
+* Starting evolution
+[MASTER] 14:29:42.838 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 6 seconds more than allowed.
+[MASTER] 14:29:44.927 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.apache.hadoop.mapreduce.task.JobContextImpl was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 14:29:44.939 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: org.apache.hadoop.mapreduce.task.JobContextImpl
+* Search finished after 28s and 0 generations, 3167 statements, best individual has fitness: 1.0
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 1
+* Number of covered goals: 1
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100% (no goals)
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100% (no goals)
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 1
+* Number of covered goals: 1
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 1
+* Number of covered goals: 1
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 1
+* Number of covered goals: 1
+* Generated 1 tests with total length 2
+* Resulting test suite's coverage: 100% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 100%
+* Compiling and checking tests
+[MASTER] 14:30:25.399 [pool-2-thread-1] WARN  TestSuiteGenerator - JUnit checking timed out
+[MASTER] 14:30:25.400 [pool-2-thread-1] WARN  TimeController - Phase JUNIT_CHECK lasted too long, 8 seconds more than allowed.
+* Writing JUnit test case 'PrestoSparkNonRetryableExecutionException_ESTest' to /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-classloader-interface/.evosuite/tmp_2021_11_18_14_24_49/tests
+* Done!
+

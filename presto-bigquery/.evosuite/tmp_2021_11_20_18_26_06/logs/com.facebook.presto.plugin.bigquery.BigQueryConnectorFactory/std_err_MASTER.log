@@ -1,0 +1,7 @@
+[MASTER] 18:47:09.534 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.plugin.bigquery.BigQueryConnectorFactory. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 18:47:09.536 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 18:47:09.637 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 18:47:10.639 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 18:47:10.740 [main] ERROR TestGeneration - failed to write statistics data

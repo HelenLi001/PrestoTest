@@ -1,0 +1,7 @@
+[MASTER] 12:14:21.298 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.tests.functions.operators.Logical. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 12:14:21.300 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 12:14:21.400 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 12:14:22.404 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 12:14:22.505 [main] ERROR TestGeneration - failed to write statistics data

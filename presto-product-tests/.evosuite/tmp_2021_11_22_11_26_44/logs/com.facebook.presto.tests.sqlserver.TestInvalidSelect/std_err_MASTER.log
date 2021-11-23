@@ -1,0 +1,5 @@
+[MASTER] 12:24:56.898 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.tests.sqlserver.TestInvalidSelect. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 12:24:57.000 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 12:24:57.101 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,6 @@
+[MASTER] 21:29:26.907 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.plugin.prometheus.PrometheusRecordSetProvider. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 21:29:27.021 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 21:29:28.028 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 21:29:28.133 [main] ERROR TestGeneration - failed to write statistics data

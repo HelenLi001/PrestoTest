@@ -1,0 +1,4 @@
+[MASTER] 20:48:20.918 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.plugin.jdbc.DriverConnectionFactory. Clients have not finished yet, although a timeout occurred.
+ClientNode: WRITING_TESTS
+
+[MASTER] 20:48:20.976 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed

@@ -1,0 +1,3 @@
+[MASTER] 13:45:00.269 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.hive.PartitionOfflineException. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

@@ -1,0 +1,7 @@
+[MASTER] 06:47:57.920 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.raptor.metadata.BucketReassigner. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 06:47:57.923 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 06:47:58.023 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 06:47:59.025 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 06:47:59.128 [main] ERROR TestGeneration - failed to write statistics data

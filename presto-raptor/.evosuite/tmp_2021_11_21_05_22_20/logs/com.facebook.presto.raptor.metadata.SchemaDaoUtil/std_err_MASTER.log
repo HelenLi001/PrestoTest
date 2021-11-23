@@ -1,0 +1,5 @@
+[MASTER] 06:51:53.104 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.raptor.metadata.SchemaDaoUtil. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 06:51:53.212 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 06:51:53.313 [main] ERROR TestGeneration - failed to write statistics data

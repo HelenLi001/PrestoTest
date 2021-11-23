@@ -1,0 +1,3 @@
+[MASTER] 22:23:20.846 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.ml.type.ClassifierParametricType. Clients have not finished yet, although a timeout occurred.
+ClientNode: WRITING_TESTS
+

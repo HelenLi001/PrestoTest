@@ -1,0 +1,7 @@
+[MASTER] 20:57:48.294 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.plugin.jdbc.JdbcPageSinkProvider. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 20:57:48.298 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 20:57:48.400 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 20:57:49.404 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 20:57:49.506 [main] ERROR TestGeneration - failed to write statistics data

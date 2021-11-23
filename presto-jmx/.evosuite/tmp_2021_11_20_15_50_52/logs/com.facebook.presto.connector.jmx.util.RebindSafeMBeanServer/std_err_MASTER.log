@@ -1,0 +1,6 @@
+[MASTER] 16:01:43.666 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.connector.jmx.util.RebindSafeMBeanServer. Clients have not finished yet, although a timeout occurred.
+ClientNode: MINIMIZATION
+
+[MASTER] 16:01:43.768 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 16:01:44.770 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 16:01:44.871 [main] ERROR TestGeneration - failed to write statistics data

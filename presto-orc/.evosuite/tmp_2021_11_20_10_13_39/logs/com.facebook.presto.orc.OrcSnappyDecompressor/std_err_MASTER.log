@@ -1,0 +1,6 @@
+[MASTER] 11:38:17.799 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.orc.OrcSnappyDecompressor. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 11:38:17.901 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 11:38:18.903 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 11:38:19.003 [main] ERROR TestGeneration - failed to write statistics data

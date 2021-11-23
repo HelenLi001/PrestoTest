@@ -1,0 +1,22 @@
+[MASTER] 11:10:46.383 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.orc.OrcDecompressor. Lost connection with clients.
+ClientNode: SEARCH
+The JVM of the client process crashed:
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f72d0eb9a97, pid=22702, tid=0x00007f7261b52700
+#
+# JRE version: OpenJDK Runtime Environment (8.0_292-b10) (build 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10)
+# Java VM: OpenJDK 64-Bit Server VM (25.292-b10 mixed mode linux-amd64 compressed oops)
+# Problematic frame:
+# V  [libjvm.so+0xafda97]
+#
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+[MASTER] 11:10:46.485 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 11:10:47.488 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 11:10:47.592 [main] ERROR TestGeneration - failed to write statistics data

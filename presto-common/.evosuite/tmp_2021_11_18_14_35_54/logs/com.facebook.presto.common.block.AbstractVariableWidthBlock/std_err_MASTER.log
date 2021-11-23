@@ -1,0 +1,6 @@
+[MASTER] 16:05:33.238 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.common.block.AbstractVariableWidthBlock. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 16:05:33.340 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 16:05:34.341 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 16:05:34.442 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,7 @@
+[MASTER] 00:07:44.063 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.elasticsearch.ElasticsearchConfig. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 00:07:44.070 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 00:07:44.171 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 00:07:45.175 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 00:07:45.276 [main] ERROR TestGeneration - failed to write statistics data

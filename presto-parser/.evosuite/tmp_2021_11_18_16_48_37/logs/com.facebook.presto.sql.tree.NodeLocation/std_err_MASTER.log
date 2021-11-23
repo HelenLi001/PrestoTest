@@ -1,0 +1,3 @@
+[MASTER] 18:55:24.078 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.sql.tree.NodeLocation. Clients have not finished yet, although a timeout occurred.
+ClientNode: ASSERTION_GENERATION
+

@@ -1,0 +1,5 @@
+[MASTER] 00:44:05.634 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.geospatial.Rectangle. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 00:44:05.767 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 00:44:05.869 [main] ERROR TestGeneration - failed to write statistics data

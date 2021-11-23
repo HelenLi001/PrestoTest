@@ -1,0 +1,6 @@
+[MASTER] 21:09:01.870 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.plugin.jdbc.JdbcModule. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 21:09:01.976 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 21:09:02.982 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 21:09:03.096 [main] ERROR TestGeneration - failed to write statistics data

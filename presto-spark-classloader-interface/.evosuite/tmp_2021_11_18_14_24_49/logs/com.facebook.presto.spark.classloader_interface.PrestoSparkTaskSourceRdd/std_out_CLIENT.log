@@ -1,0 +1,7 @@
+* Starting client
+* Connecting to master process on port 9990
+* Analyzing classpath: 
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-classloader-interface/target/classes
+  - /home/helen/.m2/repository/com/facebook/presto/spark/spark-core/2.0.2-6/spark-core-2.0.2-6.jar
+* Error while initializing target class: String index out of range: 97
+[MASTER] 14:25:55.377 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 8 seconds more than allowed.

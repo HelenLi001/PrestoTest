@@ -1,0 +1,5 @@
+[MASTER] 05:03:12.963 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.parquet.predicate.ParquetDoubleStatistics. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 05:03:13.073 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 05:03:13.177 [main] ERROR TestGeneration - failed to write statistics data

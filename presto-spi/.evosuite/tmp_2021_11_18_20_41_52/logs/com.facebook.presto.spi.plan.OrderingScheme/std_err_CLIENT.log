@@ -1,0 +1,2 @@
+[MASTER] 21:50:09.042 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.spi.relation.VariableReferenceExpression due to failed class initialization: Could not initialize class org.evosuite.shaded.org.mockito.internal.util.MockUtil
+[MASTER] 21:50:09.044 [TEST_EXECUTION_THREAD_0] ERROR FunctionalMockStatement - Failed to use Mockito on class com.facebook.presto.spi.relation.VariableReferenceExpression: null

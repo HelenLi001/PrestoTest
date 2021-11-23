@@ -1,0 +1,4 @@
+[MASTER] 21:47:18.054 [TEST_EXECUTION_THREAD_0] ERROR FunctionalMockStatement - Failed to use Mockito on interface com.facebook.presto.spi.ConnectorTableLayoutHandle: null
+[MASTER] 21:47:18.067 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.facebook.presto.spi.ConnectorTableLayoutHandle due to failed class initialization: Could not initialize class org.evosuite.shaded.org.mockito.internal.util.MockUtil
+[MASTER] 21:47:18.925 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for com.facebook.presto.common.predicate.TupleDomain<T> : Type points to itself
+[MASTER] 21:47:18.967 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.common.predicate.TupleDomain due to failed class initialization: Could not initialize class org.evosuite.shaded.org.mockito.internal.util.MockUtil

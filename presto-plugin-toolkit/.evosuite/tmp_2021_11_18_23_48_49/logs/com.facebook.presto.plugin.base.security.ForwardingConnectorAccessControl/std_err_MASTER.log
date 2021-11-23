@@ -1,0 +1,5 @@
+[MASTER] 00:02:45.369 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.plugin.base.security.ForwardingConnectorAccessControl. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 00:02:45.480 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 00:02:45.582 [main] ERROR TestGeneration - failed to write statistics data

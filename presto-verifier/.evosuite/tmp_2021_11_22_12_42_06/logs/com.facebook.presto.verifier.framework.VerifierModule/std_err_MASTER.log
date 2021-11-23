@@ -1,0 +1,5 @@
+[MASTER] 13:58:57.928 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.verifier.framework.VerifierModule. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 13:58:58.030 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 13:58:58.131 [main] ERROR TestGeneration - failed to write statistics data

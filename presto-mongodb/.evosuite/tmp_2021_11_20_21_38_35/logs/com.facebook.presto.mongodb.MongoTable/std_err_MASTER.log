@@ -1,0 +1,5 @@
+[MASTER] 21:59:27.917 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.mongodb.MongoTable. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 21:59:28.023 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 21:59:28.126 [main] ERROR TestGeneration - failed to write statistics data

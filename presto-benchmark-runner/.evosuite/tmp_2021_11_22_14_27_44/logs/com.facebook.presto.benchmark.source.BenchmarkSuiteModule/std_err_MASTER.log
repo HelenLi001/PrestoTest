@@ -1,0 +1,6 @@
+[MASTER] 14:48:27.605 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.benchmark.source.BenchmarkSuiteModule. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 14:48:27.708 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 14:48:28.710 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 14:48:28.811 [main] ERROR TestGeneration - failed to write statistics data

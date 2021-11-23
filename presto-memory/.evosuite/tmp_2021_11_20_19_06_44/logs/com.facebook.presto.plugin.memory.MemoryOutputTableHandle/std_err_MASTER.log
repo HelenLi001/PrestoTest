@@ -1,0 +1,3 @@
+[MASTER] 19:24:21.654 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.plugin.memory.MemoryOutputTableHandle. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

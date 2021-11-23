@@ -1,0 +1,32 @@
+[MASTER] 00:22:23.955 [pool-2-thread-1] ERROR TestSuiteGenerator - Problem for com.facebook.presto.client.SpnegoHandler. Full stack:
+java.lang.VerifyError: Bad return type
+Exception Details:
+  Location:
+    org/ietf/jgss/GSSManager.getInstance()Lorg/ietf/jgss/GSSManager; @10: areturn
+  Reason:
+    Type 'sun/security/jgss/GSSManagerImpl' (current frame, stack[0]) is not assignable to 'org/ietf/jgss/GSSManager' (from method signature)
+  Current Frame:
+    bci: @10
+    flags: { }
+    locals: { }
+    stack: { 'sun/security/jgss/GSSManagerImpl' }
+  Bytecode:
+    0x0000000: b800 18bb 001a 59b7 001b b0            
+
+	at com.facebook.presto.client.SpnegoHandler.<clinit>(SpnegoHandler.java) ~[classes/:na]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_292]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_292]
+	at org.evosuite.testcase.statements.MethodStatement$1.execute(MethodStatement.java:257) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.statements.AbstractStatement.exceptionHandler(AbstractStatement.java:169) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.statements.MethodStatement.execute(MethodStatement.java:220) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:307) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:213) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_292]

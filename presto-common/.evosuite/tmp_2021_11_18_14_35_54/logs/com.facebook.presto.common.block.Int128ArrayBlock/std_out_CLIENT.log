@@ -1,0 +1,5 @@
+* Starting client
+* Connecting to master process on port 6489
+* Analyzing classpath: 
+* Writing JUnit test case 'Int128ArrayBlock_ESTest' to /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-common/.evosuite/tmp_2021_11_18_14_35_54/tests
+* Error while initializing target class: java.lang.ExceptionInInitializerError

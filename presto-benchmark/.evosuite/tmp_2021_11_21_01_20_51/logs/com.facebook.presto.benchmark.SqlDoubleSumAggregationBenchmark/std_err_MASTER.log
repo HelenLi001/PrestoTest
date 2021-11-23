@@ -1,0 +1,5 @@
+[MASTER] 02:03:32.513 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.benchmark.SqlDoubleSumAggregationBenchmark. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 02:03:32.616 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 02:03:32.717 [main] ERROR TestGeneration - failed to write statistics data

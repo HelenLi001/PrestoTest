@@ -1,0 +1,3 @@
+[MASTER] 18:42:50.258 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.plugin.bigquery.BigQueryEmptySplitPageSource. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

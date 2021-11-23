@@ -1,0 +1,3 @@
+[MASTER] 14:50:07.325 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.server.testing.TestingPrestoServerLauncher. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

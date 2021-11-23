@@ -1,0 +1,6 @@
+[MASTER] 20:01:32.244 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.bytecode.expression.ArrayLengthBytecodeExpression. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 20:01:32.346 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 20:01:33.349 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 20:01:33.459 [main] ERROR TestGeneration - failed to write statistics data

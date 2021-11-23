@@ -1,0 +1,3 @@
+[MASTER] 16:25:09.459 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.kafka.KafkaRecordSet. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

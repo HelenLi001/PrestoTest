@@ -1,0 +1,6 @@
+[MASTER] 13:30:13.749 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.verifier.checksum.ColumnMatchResult. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 13:30:13.852 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 13:30:14.854 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 13:30:14.955 [main] ERROR TestGeneration - failed to write statistics data

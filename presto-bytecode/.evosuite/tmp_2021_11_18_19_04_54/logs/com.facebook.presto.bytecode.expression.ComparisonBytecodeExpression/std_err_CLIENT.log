@@ -1,0 +1,611 @@
+[MASTER] 19:17:30.748 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.lang.Class<T> : Type points to itself
+[MASTER] 19:17:42.881 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 19:17:42.959 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on interface java.util.Comparator due to IAE: 
+Mockito cannot mock this class: interface java.util.Comparator.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 19:17:52.647 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on class org.objectweb.asm.Attribute due to IAE: 
+Mockito cannot mock this class: class org.objectweb.asm.Attribute.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 19:18:18.172 [TEST_EXECUTION_THREAD_3] ERROR FunctionalMockStatement - Cannot use Mockito on interface com.google.common.hash.Funnel due to IAE: 
+Mockito cannot mock this class: interface com.google.common.hash.Funnel.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 19:18:30.032 [TEST_EXECUTION_THREAD_3] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.bytecode.instruction.Constant$BoxedIntegerConstant due to IAE: 
+Mockito cannot mock this class: class com.facebook.presto.bytecode.instruction.Constant$BoxedIntegerConstant.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 19:18:34.780 [TEST_EXECUTION_THREAD_3] ERROR FunctionalMockStatement - Cannot use Mockito on interface java.util.function.Consumer due to IAE: 
+Mockito cannot mock this class: interface java.util.function.Consumer.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 19:19:19.634 [TEST_EXECUTION_THREAD_3] ERROR FunctionalMockStatement - Cannot use Mockito on class org.objectweb.asm.tree.LocalVariableAnnotationNode due to IAE: 
+Mockito cannot mock this class: class org.objectweb.asm.tree.LocalVariableAnnotationNode.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 19:19:20.822 [TEST_EXECUTION_THREAD_3] ERROR FunctionalMockStatement - Cannot use Mockito on interface java.util.function.BiFunction due to IAE: 
+Mockito cannot mock this class: interface java.util.function.BiFunction.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Private Build
+JVM vendor version : 25.292-b10
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+JVM info           : mixed mode
+OS name            : Linux
+OS version         : 5.10.16.3-microsoft-standard-WSL2
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 19:20:33.318 [pool-2-thread-1] ERROR JUnitAnalyzer - Compilation failed on compilation units: [RegularFileObject[/tmp/EvoSuite_0_1637291999957/com/facebook/presto/bytecode/expression/ComparisonBytecodeExpression_0_tmp__ESTest.java], RegularFileObject[/tmp/EvoSuite_0_1637291999957/com/facebook/presto/bytecode/expression/ComparisonBytecodeExpression_0_tmp__ESTest_scaffolding.java]]
+[MASTER] 19:20:33.318 [pool-2-thread-1] ERROR JUnitAnalyzer - Classpath: /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-bytecode/target/classes:/home/helen/.m2/repository/org/ow2/asm/asm/9.0/asm-9.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-util/9.0/asm-util-9.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar:/home/helen/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/helen/.m2/repository/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar:/home/helen/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/home/helen/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/helen/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/helen/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/helen/.m2/repository/io/airlift/slice/0.38/slice-0.38.jar:/home/helen/.m2/repository/org/openjdk/jol/jol-core/0.2/jol-core-0.2.jar:/mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-testng-services/target/classes:/home/helen/.m2/repository/com/facebook/airlift/log/0.201/log-0.201.jar:/home/helen/.m2/repository/io/airlift/units/1.3/units-1.3.jar:/home/helen/.m2/repository/com/facebook/airlift/concurrent/0.201/concurrent-0.201.jar:/home/helen/.m2/repository/org/testng/testng/6.10/testng-6.10.jar:/home/helen/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/home/helen/.m2/repository/org/assertj/assertj-core/3.8.0/assertj-core-3.8.0.jar:/mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-bytecode/target/classes:/home/helen/.m2/repository/org/ow2/asm/asm/9.0/asm-9.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-util/9.0/asm-util-9.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar:/home/helen/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/helen/.m2/repository/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar:/home/helen/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/home/helen/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/helen/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/helen/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/helen/.m2/repository/io/airlift/slice/0.38/slice-0.38.jar:/home/helen/.m2/repository/org/openjdk/jol/jol-core/0.2/jol-core-0.2.jar:/mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-testng-services/target/classes:/home/helen/.m2/repository/com/facebook/airlift/log/0.201/log-0.201.jar:/home/helen/.m2/repository/io/airlift/units/1.3/units-1.3.jar:/home/helen/.m2/repository/com/facebook/airlift/concurrent/0.201/concurrent-0.201.jar:/home/helen/.m2/repository/org/testng/testng/6.10/testng-6.10.jar:/home/helen/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/home/helen/.m2/repository/org/assertj/assertj-core/3.8.0/assertj-core-3.8.0.jar:/home/helen/.m2/repository/org/evosuite/evosuite-master/1.0.6/evosuite-master-1.0.6.jar:/home/helen/.m2/repository/org/evosuite/evosuite-client/1.0.6/evosuite-client-1.0.6-tests.jar:/home/helen/.m2/repository/org/evosuite/evosuite-runtime/1.0.6/evosuite-runtime-1.0.6.jar:/home/helen/.m2/repository/javax/ejb/javax.ejb-api/3.2/javax.ejb-api-3.2.jar:/home/helen/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar:/home/helen/.m2/repository/javax/faces/javax.faces-api/2.2/javax.faces-api-2.2.jar:/home/helen/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar:/home/helen/.m2/repository/org/hsqldb/hsqldb/2.4.0/hsqldb-2.4.0.jar:/home/helen/.m2/repository/org/springframework/spring-orm/4.3.14.RELEASE/spring-orm-4.3.14.RELEASE.jar:/home/helen/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE.jar:/home/helen/.m2/repository/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE.jar:/home/helen/.m2/repository/org/springframework/spring-jdbc/4.3.14.RELEASE/spring-jdbc-4.3.14.RELEASE.jar:/home/helen/.m2/repository/org/springframework/spring-tx/4.3.14.RELEASE/spring-tx-4.3.14.RELEASE.jar:/home/helen/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE.jar:/home/helen/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar:/home/helen/.m2/repository/org/springframework/spring-expression/4.3.14.RELEASE/spring-expression-4.3.14.RELEASE.jar:/home/helen/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/helen/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/helen/.m2/repository/org/mockito/mockito-core/2.16.0/mockito-core-2.16.0.jar:/home/helen/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/helen/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar:/home/helen/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/helen/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/home/helen/.m2/repository/org/ow2/asm/asm/6.0/asm-6.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-commons/6.0/asm-commons-6.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-analysis/6.0/asm-analysis-6.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-util/6.0/asm-util-6.0.jar:/home/helen/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/home/helen/.m2/repository/com/opencsv/opencsv/4.1/opencsv-4.1.jar:/home/helen/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar:/home/helen/.m2/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/home/helen/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/helen/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/helen/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/home/helen/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar:/home/helen/.m2/repository/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar:/home/helen/.m2/repository/com/googlecode/gentyref/gentyref/1.2.0/gentyref-1.2.0.jar:/home/helen/.m2/repository/net/sf/jgrapht/jgrapht/0.8.3/jgrapht-0.8.3.jar:/home/helen/.m2/repository/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar:/home/helen/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/home/helen/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:/home/helen/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/home/helen/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/helen/.m2/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar:/home/helen/.m2/repository/org/kohsuke/graphviz-api/1.1/graphviz-api-1.1.jar:/home/helen/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/helen/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/helen/.m2/repository/org/jboss/spec/javax/servlet/jboss-servlet-api_3.1_spec/1.0.2.Final/jboss-servlet-api_3.1_spec-1.0.2.Final.jar:/home/helen/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/helen/.m2/repository/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar:/home/helen/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar:/home/helen/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar:/home/helen/.m2/repository/org/hibernate/hibernate-core/5.2.13.Final/hibernate-core-5.2.13.Final.jar:/home/helen/.m2/repository/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar:/home/helen/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/helen/.m2/repository/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.jar:/home/helen/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/helen/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/helen/.m2/repository/org/jboss/jandex/2.0.3.Final/jandex-2.0.3.Final.jar:/home/helen/.m2/repository/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar:/home/helen/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/helen/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/home/helen/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar:/mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-bytecode/target/classes:/home/helen/.m2/repository/org/ow2/asm/asm/9.0/asm-9.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-util/9.0/asm-util-9.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar:/home/helen/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/helen/.m2/repository/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar:/home/helen/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/home/helen/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/helen/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/helen/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/helen/.m2/repository/io/airlift/slice/0.38/slice-0.38.jar:/home/helen/.m2/repository/org/openjdk/jol/jol-core/0.2/jol-core-0.2.jar:/mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-testng-services/target/classes:/home/helen/.m2/repository/com/facebook/airlift/log/0.201/log-0.201.jar:/home/helen/.m2/repository/io/airlift/units/1.3/units-1.3.jar:/home/helen/.m2/repository/com/facebook/airlift/concurrent/0.201/concurrent-0.201.jar:/home/helen/.m2/repository/org/testng/testng/6.10/testng-6.10.jar:/home/helen/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/home/helen/.m2/repository/org/assertj/assertj-core/3.8.0/assertj-core-3.8.0.jar
+[MASTER] 19:20:33.319 [pool-2-thread-1] ERROR JUnitAnalyzer - evosuiteCP: /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-bytecode/target/classes:/home/helen/.m2/repository/org/ow2/asm/asm/9.0/asm-9.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-util/9.0/asm-util-9.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar:/home/helen/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/helen/.m2/repository/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar:/home/helen/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/home/helen/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/helen/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/helen/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/helen/.m2/repository/io/airlift/slice/0.38/slice-0.38.jar:/home/helen/.m2/repository/org/openjdk/jol/jol-core/0.2/jol-core-0.2.jar:/mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-testng-services/target/classes:/home/helen/.m2/repository/com/facebook/airlift/log/0.201/log-0.201.jar:/home/helen/.m2/repository/io/airlift/units/1.3/units-1.3.jar:/home/helen/.m2/repository/com/facebook/airlift/concurrent/0.201/concurrent-0.201.jar:/home/helen/.m2/repository/org/testng/testng/6.10/testng-6.10.jar:/home/helen/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/home/helen/.m2/repository/org/assertj/assertj-core/3.8.0/assertj-core-3.8.0.jar:/home/helen/.m2/repository/org/evosuite/evosuite-master/1.0.6/evosuite-master-1.0.6.jar:/home/helen/.m2/repository/org/evosuite/evosuite-client/1.0.6/evosuite-client-1.0.6-tests.jar:/home/helen/.m2/repository/org/evosuite/evosuite-runtime/1.0.6/evosuite-runtime-1.0.6.jar:/home/helen/.m2/repository/javax/ejb/javax.ejb-api/3.2/javax.ejb-api-3.2.jar:/home/helen/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar:/home/helen/.m2/repository/javax/faces/javax.faces-api/2.2/javax.faces-api-2.2.jar:/home/helen/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar:/home/helen/.m2/repository/org/hsqldb/hsqldb/2.4.0/hsqldb-2.4.0.jar:/home/helen/.m2/repository/org/springframework/spring-orm/4.3.14.RELEASE/spring-orm-4.3.14.RELEASE.jar:/home/helen/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE.jar:/home/helen/.m2/repository/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE.jar:/home/helen/.m2/repository/org/springframework/spring-jdbc/4.3.14.RELEASE/spring-jdbc-4.3.14.RELEASE.jar:/home/helen/.m2/repository/org/springframework/spring-tx/4.3.14.RELEASE/spring-tx-4.3.14.RELEASE.jar:/home/helen/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE.jar:/home/helen/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar:/home/helen/.m2/repository/org/springframework/spring-expression/4.3.14.RELEASE/spring-expression-4.3.14.RELEASE.jar:/home/helen/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/helen/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/helen/.m2/repository/org/mockito/mockito-core/2.16.0/mockito-core-2.16.0.jar:/home/helen/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/helen/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar:/home/helen/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/helen/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/home/helen/.m2/repository/org/ow2/asm/asm/6.0/asm-6.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-commons/6.0/asm-commons-6.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-analysis/6.0/asm-analysis-6.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-util/6.0/asm-util-6.0.jar:/home/helen/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/home/helen/.m2/repository/com/opencsv/opencsv/4.1/opencsv-4.1.jar:/home/helen/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar:/home/helen/.m2/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/home/helen/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/helen/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/helen/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/home/helen/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar:/home/helen/.m2/repository/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar:/home/helen/.m2/repository/com/googlecode/gentyref/gentyref/1.2.0/gentyref-1.2.0.jar:/home/helen/.m2/repository/net/sf/jgrapht/jgrapht/0.8.3/jgrapht-0.8.3.jar:/home/helen/.m2/repository/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar:/home/helen/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/home/helen/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:/home/helen/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/home/helen/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/helen/.m2/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar:/home/helen/.m2/repository/org/kohsuke/graphviz-api/1.1/graphviz-api-1.1.jar:/home/helen/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/helen/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/helen/.m2/repository/org/jboss/spec/javax/servlet/jboss-servlet-api_3.1_spec/1.0.2.Final/jboss-servlet-api_3.1_spec-1.0.2.Final.jar:/home/helen/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/helen/.m2/repository/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar:/home/helen/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar:/home/helen/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar:/home/helen/.m2/repository/org/hibernate/hibernate-core/5.2.13.Final/hibernate-core-5.2.13.Final.jar:/home/helen/.m2/repository/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar:/home/helen/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/helen/.m2/repository/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.jar:/home/helen/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/helen/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/helen/.m2/repository/org/jboss/jandex/2.0.3.Final/jandex-2.0.3.Final.jar:/home/helen/.m2/repository/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar:/home/helen/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/helen/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/home/helen/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar:/mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-bytecode/target/classes:/home/helen/.m2/repository/org/ow2/asm/asm/9.0/asm-9.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-util/9.0/asm-util-9.0.jar:/home/helen/.m2/repository/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar:/home/helen/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/helen/.m2/repository/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar:/home/helen/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/home/helen/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/helen/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/helen/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/helen/.m2/repository/io/airlift/slice/0.38/slice-0.38.jar:/home/helen/.m2/repository/org/openjdk/jol/jol-core/0.2/jol-core-0.2.jar:/mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-testng-services/target/classes:/home/helen/.m2/repository/com/facebook/airlift/log/0.201/log-0.201.jar:/home/helen/.m2/repository/io/airlift/units/1.3/units-1.3.jar:/home/helen/.m2/repository/com/facebook/airlift/concurrent/0.201/concurrent-0.201.jar:/home/helen/.m2/repository/org/testng/testng/6.10/testng-6.10.jar:/home/helen/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/home/helen/.m2/repository/org/assertj/assertj-core/3.8.0/assertj-core-3.8.0.jar
+[MASTER] 19:20:33.506 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: incompatible types: java.lang.Class<java.lang.Class> cannot be converted to java.lang.Class<com.facebook.presto.bytecode.Comment>: 24
+[MASTER] 19:20:33.507 [pool-2-thread-1] ERROR JUnitAnalyzer - RegularFileObject[/tmp/EvoSuite_0_1637291999957/com/facebook/presto/bytecode/expression/ComparisonBytecodeExpression_0_tmp__ESTest.java]
+1: /*
+2:  * This file was automatically generated by EvoSuite
+3:  * Fri Nov 19 03:20:00 GMT 2021
+4:  */
+5: 
+6: package com.facebook.presto.bytecode.expression;
+7: 
+8: import org.junit.Test;
+9: import static org.junit.Assert.*;
+10: import static org.evosuite.runtime.EvoAssertions.*;
+11: import com.facebook.presto.bytecode.Comment;
+12: import com.facebook.presto.bytecode.expression.ComparisonBytecodeExpression;
+13: import com.facebook.presto.bytecode.expression.ConstantBytecodeExpression;
+14: import com.facebook.presto.bytecode.instruction.Constant;
+15: import org.evosuite.runtime.EvoRunner;
+16: import org.evosuite.runtime.EvoRunnerParameters;
+17: import org.junit.runner.RunWith;
+18: 
+19: @RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, useJEE = true) 
+20: public class ComparisonBytecodeExpression_0_tmp__ESTest extends ComparisonBytecodeExpression_0_tmp__ESTest_scaffolding {
+21: 
+22:   @Test(timeout = 4000)
+23:   public void test0()  throws Throwable  {
+24:       Class<Comment> class0 = Class.class;
+25:       ConstantBytecodeExpression constantBytecodeExpression0 = new ConstantBytecodeExpression(class0, (Constant) null);
+26:       ComparisonBytecodeExpression comparisonBytecodeExpression0 = (ComparisonBytecodeExpression)ComparisonBytecodeExpression.equal(constantBytecodeExpression0, constantBytecodeExpression0);
+27:       // Undeclared exception!
+28:       try { 
+29:         comparisonBytecodeExpression0.formatOneLine();
+30:         fail("Expecting exception: NullPointerException");
+31:       
+32:       } catch(NullPointerException e) {
+33:          //
+34:          // no message in exception (getMessage() returned null)
+35:          //
+36:          verifyException("com.facebook.presto.bytecode.expression.ConstantBytecodeExpression", e);
+37:       }
+38:   }
+39: }
+RegularFileObject[/tmp/EvoSuite_0_1637291999957/com/facebook/presto/bytecode/expression/ComparisonBytecodeExpression_0_tmp__ESTest.java]
+1: /**
+2:  * Scaffolding file used to store all the setups needed to run 
+3:  * tests automatically generated by EvoSuite
+4:  * Fri Nov 19 03:20:00 GMT 2021
+5:  */
+6: 
+7: package com.facebook.presto.bytecode.expression;
+8: 
+9: import org.evosuite.runtime.annotation.EvoSuiteClassExclude;
+10: import org.junit.BeforeClass;
+11: import org.junit.Before;
+12: import org.junit.After;
+13: import org.junit.AfterClass;
+14: import org.evosuite.runtime.sandbox.Sandbox;
+15: import org.evosuite.runtime.sandbox.Sandbox.SandboxMode;
+16: 
+17: @EvoSuiteClassExclude
+18: public class ComparisonBytecodeExpression_0_tmp__ESTest_scaffolding {
+19: 
+20:   @org.junit.Rule 
+21:   public org.evosuite.runtime.vnet.NonFunctionalRequirementRule nfr = new org.evosuite.runtime.vnet.NonFunctionalRequirementRule();
+22: 
+23:   private static final java.util.Properties defaultProperties = (java.util.Properties) java.lang.System.getProperties().clone(); 
+24: 
+25:   private org.evosuite.runtime.thread.ThreadStopper threadStopper =  new org.evosuite.runtime.thread.ThreadStopper (org.evosuite.runtime.thread.KillSwitchHandler.getInstance(), 3000);
+26: 
+27: 
+28:   @BeforeClass 
+29:   public static void initEvoSuiteFramework() { 
+30:     org.evosuite.runtime.RuntimeSettings.className = "com.facebook.presto.bytecode.expression.ComparisonBytecodeExpression"; 
+31:     org.evosuite.runtime.GuiSupport.initialize(); 
+32:     org.evosuite.runtime.RuntimeSettings.maxNumberOfThreads = 100; 
+33:     org.evosuite.runtime.RuntimeSettings.maxNumberOfIterationsPerLoop = 10000; 
+34:     org.evosuite.runtime.RuntimeSettings.mockSystemIn = true; 
+35:     org.evosuite.runtime.RuntimeSettings.sandboxMode = org.evosuite.runtime.sandbox.Sandbox.SandboxMode.RECOMMENDED; 
+36:     org.evosuite.runtime.sandbox.Sandbox.initializeSecurityManagerForSUT(); 
+37:     org.evosuite.runtime.classhandling.JDKClassResetter.init();
+38:     setSystemProperties();
+39:     initializeClasses();
+40:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+41:   } 
+42: 
+43:   @AfterClass 
+44:   public static void clearEvoSuiteFramework(){ 
+45:     Sandbox.resetDefaultSecurityManager(); 
+46:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+47:   } 
+48: 
+49:   @Before 
+50:   public void initTestCase(){ 
+51:     threadStopper.storeCurrentThreads();
+52:     threadStopper.startRecordingTime();
+53:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().initHandler(); 
+54:     org.evosuite.runtime.sandbox.Sandbox.goingToExecuteSUTCode(); 
+55:     setSystemProperties(); 
+56:     org.evosuite.runtime.GuiSupport.setHeadless(); 
+57:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+58:     org.evosuite.runtime.agent.InstrumentingAgent.activate(); 
+59:   } 
+60: 
+61:   @After 
+62:   public void doneWithTestCase(){ 
+63:     threadStopper.killAndJoinClientThreads();
+64:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().safeExecuteAddedHooks(); 
+65:     org.evosuite.runtime.classhandling.JDKClassResetter.reset(); 
+66:     resetClasses(); 
+67:     org.evosuite.runtime.sandbox.Sandbox.doneWithExecutingSUTCode(); 
+68:     org.evosuite.runtime.agent.InstrumentingAgent.deactivate(); 
+69:     org.evosuite.runtime.GuiSupport.restoreHeadlessMode(); 
+70:   } 
+71: 
+72:   public static void setSystemProperties() {
+73:  
+74:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+75:     java.lang.System.setProperty("file.encoding", "UTF-8"); 
+76:     java.lang.System.setProperty("java.awt.headless", "true"); 
+77:     java.lang.System.setProperty("java.io.tmpdir", "/tmp"); 
+78:     java.lang.System.setProperty("user.dir", "/mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-bytecode"); 
+79:     java.lang.System.setProperty("user.home", "/home/helen"); 
+80:     java.lang.System.setProperty("user.language", "en"); 
+81:     java.lang.System.setProperty("user.name", "helen"); 
+82:     java.lang.System.setProperty("user.timezone", "America/Los_Angeles"); 
+83:   }
+84: 
+85:   private static void initializeClasses() {
+86:     org.evosuite.runtime.classhandling.ClassStateSupport.initializeClasses(ComparisonBytecodeExpression_0_tmp__ESTest_scaffolding.class.getClassLoader() ,
+87:       "com.facebook.presto.bytecode.expression.BytecodeExpression",
+88:       "org.objectweb.asm.tree.FieldInsnNode",
+89:       "com.google.common.collect.Hashing",
+90:       "com.google.common.collect.ImmutableList$SubList",
+91:       "com.facebook.presto.bytecode.BytecodeVisitor",
+92:       "com.facebook.presto.bytecode.expression.CastBytecodeExpression$1",
+93:       "com.facebook.presto.bytecode.MethodDefinition",
+94:       "com.google.common.collect.PeekingIterator",
+95:       "com.facebook.presto.bytecode.expression.InstanceOfBytecodeExpression",
+96:       "com.google.common.collect.RegularImmutableList",
+97:       "com.facebook.presto.bytecode.instruction.Constant$FloatConstant",
+98:       "com.facebook.presto.bytecode.instruction.Constant$BooleanConstant",
+99:       "com.google.common.collect.FluentIterable",
+100:       "com.google.common.base.Optional",
+101:       "com.facebook.presto.bytecode.expression.SetFieldBytecodeExpression",
+102:       "com.facebook.presto.bytecode.expression.GetElementBytecodeExpression",
+103:       "com.facebook.presto.bytecode.OpCode",
+104:       "com.google.common.collect.RegularImmutableMap$KeySet",
+105:       "com.google.common.collect.Iterators$ArrayItr",
+106:       "com.facebook.presto.bytecode.expression.ArrayLengthBytecodeExpression",
+107:       "com.facebook.presto.bytecode.Variable",
+108:       "com.facebook.presto.bytecode.instruction.Constant$BoxedIntegerConstant",
+109:       "com.facebook.presto.bytecode.expression.SetArrayElementBytecodeExpression",
+110:       "com.facebook.presto.bytecode.Parameter",
+111:       "com.google.common.collect.RegularImmutableMap",
+112:       "com.facebook.presto.bytecode.StaticTypeBytecodeExpression",
+113:       "com.google.common.collect.Iterators$10",
+114:       "com.google.common.collect.AbstractMapEntry",
+115:       "com.google.common.collect.ImmutableMap$IteratorBasedImmutableMap",
+116:       "com.facebook.presto.bytecode.instruction.InstructionNode",
+117:       "com.facebook.presto.bytecode.Scope",
+118:       "org.objectweb.asm.tree.VarInsnNode",
+119:       "com.google.common.base.Present",
+120:       "com.facebook.presto.bytecode.instruction.Constant$BoxedBooleanConstant",
+121:       "com.facebook.presto.bytecode.expression.ReturnBytecodeExpression",
+122:       "com.google.common.base.Joiner",
+123:       "org.objectweb.asm.tree.AnnotationNode",
+124:       "org.objectweb.asm.tree.MethodInsnNode",
+125:       "org.objectweb.asm.AnnotationVisitor",
+126:       "com.google.common.collect.Iterables",
+127:       "org.objectweb.asm.tree.LineNumberNode",
+128:       "com.google.common.collect.ImmutableAsList",
+129:       "com.google.common.collect.ImmutableMapEntrySet$RegularEntrySet",
+130:       "org.objectweb.asm.tree.IntInsnNode",
+131:       "com.google.common.collect.RegularImmutableAsList",
+132:       "com.facebook.presto.bytecode.instruction.Constant$NullConstant",
+133:       "com.google.common.collect.ImmutableMapEntrySet",
+134:       "com.google.common.collect.UnmodifiableListIterator",
+135:       "org.objectweb.asm.Attribute",
+136:       "org.objectweb.asm.tree.JumpInsnNode",
+137:       "com.facebook.presto.bytecode.instruction.Constant$BoxedDoubleConstant",
+138:       "com.facebook.presto.bytecode.instruction.Constant$DoubleConstant",
+139:       "com.google.common.base.Absent",
+140:       "com.facebook.presto.bytecode.instruction.Constant$IntConstant",
+141:       "com.google.common.collect.ObjectArrays",
+142:       "com.facebook.presto.bytecode.Variable$SetVariableBytecodeExpression",
+143:       "org.objectweb.asm.tree.InsnList",
+144:       "com.google.common.collect.AbstractIterator",
+145:       "com.facebook.presto.bytecode.instruction.Constant$StringConstant",
+146:       "com.google.common.collect.ImmutableList$1",
+147:       "org.objectweb.asm.Handle",
+148:       "com.google.common.collect.ImmutableMap$MapViewOfValuesAsSingletonSets",
+149:       "com.google.common.collect.ImmutableMapEntry$NonTerminalImmutableMapEntry",
+150:       "com.google.common.base.Preconditions",
+151:       "com.google.common.collect.UnmodifiableIterator",
+152:       "org.objectweb.asm.tree.LookupSwitchInsnNode",
+153:       "com.facebook.presto.bytecode.ParameterizedType",
+154:       "com.google.common.collect.ImmutableEntry",
+155:       "org.objectweb.asm.tree.TableSwitchInsnNode",
+156:       "com.facebook.presto.bytecode.instruction.JumpInstruction",
+157:       "com.google.common.base.Joiner$1",
+158:       "com.facebook.presto.bytecode.instruction.Constant",
+159:       "org.objectweb.asm.MethodVisitor",
+160:       "com.facebook.presto.bytecode.instruction.Constant$BoxedFloatConstant",
+161:       "com.google.common.base.Joiner$2",
+162:       "org.objectweb.asm.tree.IincInsnNode",
+163:       "com.google.common.collect.ImmutableCollection",
+164:       "org.objectweb.asm.Type",
+165:       "org.objectweb.asm.tree.MultiANewArrayInsnNode",
+166:       "org.objectweb.asm.tree.TypeAnnotationNode",
+167:       "com.google.common.collect.ImmutableList$ReverseImmutableList",
+168:       "org.objectweb.asm.tree.LocalVariableAnnotationNode",
+169:       "com.google.common.collect.SingletonImmutableList",
+170:       "org.objectweb.asm.ClassVisitor",
+171:       "com.google.common.collect.ImmutableCollection$Builder",
+172:       "com.google.common.collect.Iterators$6",
+173:       "com.google.common.collect.BiMap",
+174:       "com.google.common.collect.IndexedImmutableSet",
+175:       "com.google.common.collect.ImmutableSet",
+176:       "com.google.common.collect.Iterators$9",
+177:       "com.google.common.base.Function",
+178:       "com.facebook.presto.bytecode.expression.ConstantBytecodeExpression",
+179:       "com.google.common.collect.ImmutableMap",
+180:       "com.google.common.collect.ImmutableMapEntry",
+181:       "com.google.common.collect.AbstractIndexedListIterator",
+182:       "com.google.common.collect.CollectPreconditions",
+183:       "com.google.common.collect.Iterators$1",
+184:       "com.facebook.presto.bytecode.MethodGenerationContext",
+185:       "com.facebook.presto.bytecode.instruction.Constant$BoxedLongConstant",
+186:       "com.google.common.collect.Iterators$4",
+187:       "com.google.common.collect.Iterators$5",
+188:       "com.facebook.presto.bytecode.expression.InvokeBytecodeExpression",
+189:       "com.facebook.presto.bytecode.expression.CastBytecodeExpression$TypeKind",
+190:       "com.facebook.presto.bytecode.expression.CastBytecodeExpression",
+191:       "org.objectweb.asm.tree.InvokeDynamicInsnNode",
+192:       "org.objectweb.asm.tree.FrameNode",
+193:       "com.facebook.presto.bytecode.instruction.LabelNode",
+194:       "com.google.common.collect.ImmutableMap$1",
+195:       "com.google.common.collect.ImmutableList$Builder",
+196:       "com.google.common.collect.Iterables$5",
+197:       "org.objectweb.asm.Label",
+198:       "com.google.common.collect.Iterators",
+199:       "com.google.common.collect.ImmutableBiMap",
+200:       "org.objectweb.asm.tree.MethodNode",
+201:       "org.objectweb.asm.tree.TypeInsnNode",
+202:       "com.google.common.collect.ImmutableList",
+203:       "com.google.common.collect.FluentIterable$1",
+204:       "com.google.common.collect.FluentIterable$2",
+205:       "com.facebook.presto.bytecode.BytecodeBlock",
+206:       "com.google.common.collect.ImmutableBiMapFauxverideShim",
+207:       "com.google.common.collect.FluentIterable$3",
+208:       "com.facebook.presto.bytecode.instruction.Constant$LongConstant",
+209:       "org.objectweb.asm.tree.UnsupportedClassVersionException",
+210:       "org.objectweb.asm.tree.LabelNode",
+211:       "com.google.common.collect.ImmutableMap$Builder",
+212:       "com.facebook.presto.bytecode.expression.ComparisonBytecodeExpression",
+213:       "com.facebook.presto.bytecode.expression.PopBytecodeExpression",
+214:       "com.google.common.collect.TransformedIterator",
+215:       "com.facebook.presto.bytecode.instruction.Constant$ClassConstant",
+216:       "org.objectweb.asm.tree.LdcInsnNode",
+217:       "com.facebook.presto.bytecode.BytecodeNode",
+218:       "org.objectweb.asm.TypePath",
+219:       "org.objectweb.asm.tree.AbstractInsnNode",
+220:       "com.facebook.presto.bytecode.expression.GetFieldBytecodeExpression",
+221:       "com.facebook.presto.bytecode.FieldDefinition",
+222:       "com.facebook.presto.bytecode.Comment",
+223:       "com.google.common.collect.Iterators$MergingIterator",
+224:       "com.google.common.collect.RegularImmutableMap$Values",
+225:       "org.objectweb.asm.tree.InsnNode",
+226:       "com.facebook.presto.bytecode.instruction.TypeInstruction"
+227:     );
+228:   } 
+229: 
+230:   private static void resetClasses() {
+231:     org.evosuite.runtime.classhandling.ClassResetter.getInstance().setClassLoader(ComparisonBytecodeExpression_0_tmp__ESTest_scaffolding.class.getClassLoader()); 
+232: 
+233:     org.evosuite.runtime.classhandling.ClassStateSupport.resetClasses(
+234:       "com.facebook.presto.bytecode.expression.BytecodeExpression",
+235:       "com.facebook.presto.bytecode.expression.ComparisonBytecodeExpression",
+236:       "com.google.common.collect.ImmutableMap",
+237:       "com.google.common.collect.ImmutableMap$Builder",
+238:       "com.google.common.collect.CollectPreconditions",
+239:       "com.google.common.collect.ImmutableCollection$Builder",
+240:       "com.google.common.collect.RegularImmutableMap",
+241:       "com.google.common.base.Preconditions",
+242:       "com.google.common.collect.AbstractMapEntry",
+243:       "com.google.common.collect.ImmutableEntry",
+244:       "com.google.common.collect.ImmutableMapEntry",
+245:       "com.google.common.collect.Hashing",
+246:       "com.google.common.collect.ImmutableMapEntry$NonTerminalImmutableMapEntry",
+247:       "com.facebook.presto.bytecode.OpCode",
+248:       "com.google.common.collect.ImmutableCollection",
+249:       "com.google.common.collect.ImmutableList",
+250:       "com.google.common.collect.RegularImmutableList",
+251:       "com.facebook.presto.bytecode.Variable",
+252:       "com.facebook.presto.bytecode.Parameter",
+253:       "com.facebook.presto.bytecode.ParameterizedType",
+254:       "com.facebook.presto.bytecode.expression.ArrayLengthBytecodeExpression",
+255:       "com.facebook.presto.bytecode.expression.ReturnBytecodeExpression",
+256:       "com.facebook.presto.bytecode.expression.InstanceOfBytecodeExpression",
+257:       "org.objectweb.asm.MethodVisitor",
+258:       "org.objectweb.asm.tree.MethodNode",
+259:       "org.objectweb.asm.tree.InsnList",
+260:       "com.facebook.presto.bytecode.MethodGenerationContext",
+261:       "com.facebook.presto.bytecode.BytecodeBlock",
+262:       "com.facebook.presto.bytecode.instruction.LabelNode",
+263:       "org.objectweb.asm.Label",
+264:       "com.facebook.presto.bytecode.instruction.JumpInstruction",
+265:       "com.facebook.presto.bytecode.instruction.Constant",
+266:       "com.facebook.presto.bytecode.instruction.Constant$BooleanConstant",
+267:       "com.facebook.presto.bytecode.expression.CastBytecodeExpression",
+268:       "com.facebook.presto.bytecode.expression.CastBytecodeExpression$TypeKind",
+269:       "com.facebook.presto.bytecode.expression.CastBytecodeExpression$1",
+270:       "com.facebook.presto.bytecode.instruction.TypeInstruction",
+271:       "com.google.common.collect.Iterables",
+272:       "com.google.common.collect.FluentIterable",
+273:       "com.google.common.collect.Iterables$5",
+274:       "com.google.common.base.Optional",
+275:       "com.google.common.base.Absent",
+276:       "com.google.common.collect.Iterators",
+277:       "com.google.common.collect.TransformedIterator",
+278:       "com.google.common.collect.Iterators$6",
+279:       "com.facebook.presto.bytecode.expression.InvokeBytecodeExpression",
+280:       "com.google.common.collect.ObjectArrays",
+281:       "com.google.common.collect.UnmodifiableIterator",
+282:       "com.google.common.collect.UnmodifiableListIterator",
+283:       "com.google.common.collect.AbstractIndexedListIterator",
+284:       "com.google.common.collect.Iterators$ArrayItr",
+285:       "com.facebook.presto.bytecode.instruction.Constant$FloatConstant",
+286:       "com.facebook.presto.bytecode.instruction.Constant$DoubleConstant",
+287:       "com.facebook.presto.bytecode.expression.ConstantBytecodeExpression",
+288:       "com.facebook.presto.bytecode.expression.GetFieldBytecodeExpression",
+289:       "com.facebook.presto.bytecode.expression.PopBytecodeExpression",
+290:       "com.facebook.presto.bytecode.expression.SetFieldBytecodeExpression",
+291:       "com.google.common.collect.ImmutableList$Builder",
+292:       "com.google.common.base.Joiner",
+293:       "com.facebook.presto.bytecode.Variable$SetVariableBytecodeExpression",
+294:       "org.objectweb.asm.Type",
+295:       "com.facebook.presto.bytecode.BytecodeVisitor",
+296:       "com.google.common.collect.SingletonImmutableList",
+297:       "com.facebook.presto.bytecode.instruction.Constant$StringConstant",
+298:       "com.facebook.presto.bytecode.expression.ArithmeticBytecodeExpression",
+299:       "com.facebook.presto.bytecode.expression.ArithmeticBytecodeExpression$1",
+300:       "com.facebook.presto.bytecode.expression.GetElementBytecodeExpression",
+301:       "com.facebook.presto.bytecode.expression.BytecodeExpressions",
+302:       "com.facebook.presto.bytecode.instruction.Constant$IntConstant",
+303:       "com.facebook.presto.bytecode.ClassDefinition",
+304:       "com.facebook.presto.bytecode.expression.NewArrayBytecodeExpression",
+305:       "com.facebook.presto.bytecode.Binding",
+306:       "com.facebook.presto.bytecode.instruction.InvokeInstruction",
+307:       "com.facebook.presto.bytecode.instruction.InvokeInstruction$InvokeDynamicInstruction",
+308:       "com.google.common.base.CharMatcher",
+309:       "com.google.common.base.CharMatcher$AnyOf",
+310:       "com.facebook.presto.bytecode.StaticTypeBytecodeExpression",
+311:       "com.facebook.presto.bytecode.MethodDefinition",
+312:       "com.google.common.collect.Iterators$9",
+313:       "com.google.common.collect.Lists",
+314:       "com.google.common.collect.Lists$TransformingRandomAccessList",
+315:       "com.facebook.presto.bytecode.Scope",
+316:       "com.google.common.base.Strings",
+317:       "com.facebook.presto.bytecode.instruction.Constant$BoxedIntegerConstant",
+318:       "org.objectweb.asm.util.Printer",
+319:       "org.objectweb.asm.util.Textifier",
+320:       "org.objectweb.asm.util.TraceMethodVisitor",
+321:       "org.objectweb.asm.util.CheckMethodAdapter$Method",
+322:       "org.objectweb.asm.util.CheckMethodAdapter",
+323:       "com.facebook.presto.bytecode.instruction.VariableInstruction",
+324:       "com.facebook.presto.bytecode.instruction.VariableInstruction$LoadVariableInstruction",
+325:       "com.facebook.presto.bytecode.expression.InlineIfBytecodeExpression",
+326:       "com.facebook.presto.bytecode.expression.OrBytecodeExpression",
+327:       "com.google.common.collect.ImmutableSet",
+328:       "com.google.common.collect.ImmutableSet$Builder",
+329:       "com.google.common.collect.ImmutableSet$SetBuilderImpl",
+330:       "com.google.common.collect.ImmutableSet$RegularSetBuilderImpl",
+331:       "com.google.common.math.IntMath",
+332:       "com.google.common.math.MathPreconditions",
+333:       "com.google.common.math.IntMath$1",
+334:       "com.google.common.primitives.Primitives",
+335:       "com.google.common.collect.RegularImmutableSet",
+336:       "com.facebook.presto.bytecode.AnnotationDefinition",
+337:       "org.objectweb.asm.util.ASMifier",
+338:       "org.objectweb.asm.tree.AbstractInsnNode",
+339:       "org.objectweb.asm.tree.LabelNode",
+340:       "org.objectweb.asm.tree.LookupSwitchInsnNode",
+341:       "org.objectweb.asm.tree.Util",
+342:       "com.facebook.presto.bytecode.instruction.Constant$BoxedBooleanConstant",
+343:       "com.facebook.presto.bytecode.Comment",
+344:       "com.facebook.presto.bytecode.expression.SetArrayElementBytecodeExpression",
+345:       "org.objectweb.asm.ClassReader",
+346:       "com.facebook.presto.bytecode.expression.NotBytecodeExpression",
+347:       "com.facebook.presto.bytecode.instruction.Constant$BoxedFloatConstant",
+348:       "com.facebook.presto.bytecode.instruction.VariableInstruction$IncrementVariableInstruction",
+349:       "org.hsqldb.jdbc.JDBCDriver",
+350:       "com.facebook.presto.bytecode.instruction.Constant$ClassConstant",
+351:       "org.objectweb.asm.ClassVisitor",
+352:       "org.objectweb.asm.ClassWriter",
+353:       "org.objectweb.asm.SymbolTable",
+354:       "org.objectweb.asm.ByteVector",
+355:       "com.google.common.collect.FluentIterable$3",
+356:       "com.google.common.collect.FluentIterable$3$1",
+357:       "com.google.common.collect.Iterators$ConcatenatedIterator",
+358:       "org.objectweb.asm.Symbol",
+359:       "org.objectweb.asm.SymbolTable$Entry",
+360:       "com.google.common.collect.TransformedListIterator",
+361:       "com.google.common.collect.Lists$TransformingRandomAccessList$1",
+362:       "org.objectweb.asm.MethodWriter",
+363:       "org.objectweb.asm.Frame",
+364:       "com.facebook.presto.bytecode.MethodGenerationContext$ScopeContext",
+365:       "org.objectweb.asm.tree.InsnNode",
+366:       "com.facebook.presto.bytecode.instruction.Constant$LongConstant",
+367:       "com.facebook.presto.bytecode.FieldDefinition",
+368:       "com.google.common.collect.Sets",
+369:       "com.google.common.collect.ImmutableEnumSet",
+370:       "org.objectweb.asm.tree.FieldInsnNode",
+371:       "org.objectweb.asm.util.CheckMethodAdapter$1",
+372:       "com.facebook.presto.bytecode.instruction.Constant$NullConstant",
+373:       "com.facebook.presto.bytecode.expression.NewInstanceBytecodeExpression",
+374:       "org.objectweb.asm.TypePath",
+375:       "com.google.common.base.MoreObjects",
+376:       "com.google.common.base.MoreObjects$ToStringHelper",
+377:       "com.google.common.base.MoreObjects$ToStringHelper$ValueHolder",
+378:       "com.facebook.presto.bytecode.expression.AndBytecodeExpression",
+379:       "org.objectweb.asm.tree.TypeInsnNode",
+380:       "org.objectweb.asm.tree.JumpInsnNode",
+381:       "com.facebook.presto.bytecode.instruction.Constant$BoxedDoubleConstant",
+382:       "com.facebook.presto.bytecode.instruction.Constant$BoxedLongConstant",
+383:       "com.facebook.presto.bytecode.control.IfStatement",
+384:       "org.objectweb.asm.AnnotationVisitor",
+385:       "org.objectweb.asm.util.CheckAnnotationAdapter",
+386:       "org.objectweb.asm.tree.AnnotationNode",
+387:       "org.objectweb.asm.tree.MethodNode$1",
+388:       "org.objectweb.asm.tree.TypeAnnotationNode",
+389:       "com.facebook.presto.bytecode.expression.NegateBytecodeExpression",
+390:       "com.google.common.collect.SingletonImmutableSet",
+391:       "com.facebook.presto.bytecode.control.ForLoop",
+392:       "com.facebook.presto.bytecode.instruction.VariableInstruction$StoreVariableInstruction",
+393:       "com.facebook.presto.bytecode.control.WhileLoop",
+394:       "org.objectweb.asm.tree.TryCatchBlockNode",
+395:       "org.objectweb.asm.tree.VarInsnNode",
+396:       "org.objectweb.asm.tree.LdcInsnNode",
+397:       "com.google.common.primitives.Ints",
+398:       "com.facebook.presto.bytecode.expression.InvokeDynamicBytecodeExpression",
+399:       "com.facebook.presto.bytecode.control.DoWhileLoop",
+400:       "org.objectweb.asm.tree.LocalVariableNode",
+401:       "org.objectweb.asm.tree.ParameterNode",
+402:       "org.objectweb.asm.tree.FrameNode",
+403:       "org.objectweb.asm.tree.LineNumberNode",
+404:       "org.objectweb.asm.tree.MultiANewArrayInsnNode",
+405:       "com.facebook.presto.bytecode.instruction.FieldInstruction",
+406:       "com.facebook.presto.bytecode.instruction.FieldInstruction$GetFieldInstruction",
+407:       "com.facebook.presto.bytecode.instruction.FieldInstruction$PutFieldInstruction",
+408:       "org.objectweb.asm.tree.IincInsnNode",
+409:       "org.objectweb.asm.TypeReference",
+410:       "org.objectweb.asm.util.TraceAnnotationVisitor",
+411:       "org.objectweb.asm.Handle",
+412:       "org.objectweb.asm.tree.InvokeDynamicInsnNode",
+413:       "org.objectweb.asm.tree.IntInsnNode",
+414:       "com.google.common.hash.BloomFilter",
+415:       "com.google.common.hash.BloomFilterStrategies",
+416:       "com.google.common.collect.Iterators$1",
+417:       "org.objectweb.asm.FieldVisitor",
+418:       "org.objectweb.asm.FieldWriter",
+419:       "org.objectweb.asm.tree.FieldNode",
+420:       "org.objectweb.asm.tree.LocalVariableAnnotationNode",
+421:       "org.objectweb.asm.tree.TableSwitchInsnNode",
+422:       "org.objectweb.asm.tree.MethodInsnNode",
+423:       "org.objectweb.asm.signature.SignatureVisitor",
+424:       "org.objectweb.asm.util.TraceSignatureVisitor",
+425:       "org.objectweb.asm.signature.SignatureReader",
+426:       "com.facebook.presto.bytecode.debug.LineNumberNode",
+427:       "org.objectweb.asm.tree.InsnList$InsnListIterator",
+428:       "com.facebook.presto.bytecode.debug.LocalVariableNode"
+429:     );
+430:   }
+431: }
+
+[MASTER] 19:20:33.508 [pool-2-thread-1] ERROR JUnitAnalyzer - Failed to compile test case:
+Class<Comment> class0 = Class.class;
+ConstantBytecodeExpression constantBytecodeExpression0 = new ConstantBytecodeExpression(class0, (Constant) null);
+ComparisonBytecodeExpression comparisonBytecodeExpression0 = (ComparisonBytecodeExpression)ComparisonBytecodeExpression.equal(constantBytecodeExpression0, constantBytecodeExpression0);
+comparisonBytecodeExpression0.formatOneLine();
+

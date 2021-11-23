@@ -1,0 +1,5 @@
+[MASTER] 02:50:49.316 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.nodettlfetchers.PrestoNodeTtlFetcherPlugin. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 02:50:49.418 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 02:50:49.519 [main] ERROR TestGeneration - failed to write statistics data

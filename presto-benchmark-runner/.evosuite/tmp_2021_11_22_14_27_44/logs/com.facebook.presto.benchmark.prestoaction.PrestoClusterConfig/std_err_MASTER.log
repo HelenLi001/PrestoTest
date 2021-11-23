@@ -1,0 +1,6 @@
+[MASTER] 14:56:11.879 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.benchmark.prestoaction.PrestoClusterConfig. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 14:56:11.892 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 14:56:11.993 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 14:56:12.095 [main] ERROR TestGeneration - failed to write statistics data

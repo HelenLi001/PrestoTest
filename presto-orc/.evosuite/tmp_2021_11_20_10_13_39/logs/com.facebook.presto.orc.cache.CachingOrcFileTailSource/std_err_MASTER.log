@@ -1,0 +1,5 @@
+[MASTER] 11:35:54.259 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.orc.cache.CachingOrcFileTailSource. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 11:35:54.361 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 11:35:54.462 [main] ERROR TestGeneration - failed to write statistics data

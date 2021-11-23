@@ -1,0 +1,8 @@
+[MASTER] 23:57:40.263 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 23:57:42.269 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 23:57:43.270 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 23:57:44.272 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 23:57:45.274 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 23:57:46.282 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 23:57:46.292 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 23:57:46.393 [main] ERROR TestGeneration - failed to write statistics data

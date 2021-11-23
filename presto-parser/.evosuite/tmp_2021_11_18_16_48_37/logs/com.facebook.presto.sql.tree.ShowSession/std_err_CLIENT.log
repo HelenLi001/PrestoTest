@@ -1,0 +1,1 @@
+[MASTER] 18:33:16.485 [TEST_EXECUTION_THREAD_0] ERROR FunctionalMockStatement - Failed to use Mockito on class com.facebook.presto.sql.tree.NodeLocation: null

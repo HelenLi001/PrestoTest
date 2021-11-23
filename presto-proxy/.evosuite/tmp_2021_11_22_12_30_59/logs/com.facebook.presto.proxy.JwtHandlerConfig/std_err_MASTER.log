@@ -1,0 +1,5 @@
+[MASTER] 12:37:55.257 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.proxy.JwtHandlerConfig. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 12:37:55.360 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 12:37:55.461 [main] ERROR TestGeneration - failed to write statistics data

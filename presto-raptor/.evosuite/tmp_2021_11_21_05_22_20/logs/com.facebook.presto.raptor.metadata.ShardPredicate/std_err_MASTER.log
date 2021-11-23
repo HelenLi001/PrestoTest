@@ -1,0 +1,3 @@
+[MASTER] 06:06:02.012 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.raptor.metadata.ShardPredicate. Clients have not finished yet, although a timeout occurred.
+ClientNode: ASSERTION_GENERATION
+

@@ -1,0 +1,3 @@
+[MASTER] 09:45:14.537 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.resourceGroups.db.DbResourceGroupConfigurationManagerFactory. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

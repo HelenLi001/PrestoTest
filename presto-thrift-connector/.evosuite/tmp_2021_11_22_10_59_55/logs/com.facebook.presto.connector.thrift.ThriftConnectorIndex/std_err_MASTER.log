@@ -1,0 +1,3 @@
+[MASTER] 11:21:14.138 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.connector.thrift.ThriftConnectorIndex. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

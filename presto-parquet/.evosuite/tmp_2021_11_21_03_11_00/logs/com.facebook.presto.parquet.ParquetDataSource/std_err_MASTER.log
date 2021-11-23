@@ -1,0 +1,6 @@
+[MASTER] 05:02:05.913 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.parquet.ParquetDataSource. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 05:02:05.922 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 05:02:06.027 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 05:02:06.128 [main] ERROR TestGeneration - failed to write statistics data

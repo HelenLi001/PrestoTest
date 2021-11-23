@@ -1,0 +1,5 @@
+* Starting client
+* Connecting to master process on port 20007
+* Analyzing classpath: 
+* Error while initializing target class: java.lang.NullPointerException
+[MASTER] 23:13:28.379 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 3 seconds more than allowed.

@@ -1,0 +1,8 @@
+* Starting client
+* Connecting to master process on port 4423
+* Analyzing classpath: 
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-tpch/target/classes
+  - /home/helen/.m2/repository/io/airlift/tpch/tpch/0.10/tpch-0.10.jar
+  - /home/helen/.m2/repository/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar
+  - /home/helen/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+  - /home/helen/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar

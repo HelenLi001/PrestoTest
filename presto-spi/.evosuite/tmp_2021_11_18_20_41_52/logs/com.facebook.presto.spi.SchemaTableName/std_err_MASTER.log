@@ -1,0 +1,6 @@
+[MASTER] 22:12:44.145 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.spi.SchemaTableName. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 22:12:44.248 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 22:12:45.251 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 22:12:45.353 [main] ERROR TestGeneration - failed to write statistics data

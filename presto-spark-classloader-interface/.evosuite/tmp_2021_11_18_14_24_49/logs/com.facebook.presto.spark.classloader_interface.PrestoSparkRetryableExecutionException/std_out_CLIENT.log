@@ -1,0 +1,32 @@
+* Starting client
+* Connecting to master process on port 17025
+* Analyzing classpath: 
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-classloader-interface/target/classes
+  - /home/helen/.m2/repository/com/facebook/presto/spark/spark-core/2.0.2-6/spark-core-2.0.2-6.jar
+* Finished analyzing classpath
+* Generating tests for class com.facebook.presto.spark.classloader_interface.PrestoSparkRetryableExecutionException
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 0 tests from /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-classloader-interface/.evosuite/evosuite-seeds/com.facebook.presto.spark.classloader_interface.PrestoSparkRetryableExecutionException.seed
+* Total number of test goals: 
+  - Line 2
+  - Branch 1
+  - Exception 0
+  - MutationFactory 0
+  - Output 0
+  - Method 1
+  - MethodNoException 1
+  - CBranchFitnessFactory 1
+* Using seed 1637274626965
+* Starting evolution
+[MASTER] 14:30:38.936 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 6 seconds more than allowed.
+[MASTER] 14:30:40.567 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.apache.hadoop.mapreduce.task.JobContextImpl was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 14:30:40.574 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: org.apache.hadoop.mapreduce.task.JobContextImpl

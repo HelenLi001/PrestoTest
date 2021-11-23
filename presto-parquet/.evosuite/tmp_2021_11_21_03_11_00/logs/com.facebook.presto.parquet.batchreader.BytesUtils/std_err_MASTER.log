@@ -1,0 +1,5 @@
+[MASTER] 05:20:02.796 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.parquet.batchreader.BytesUtils. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 05:20:02.906 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 05:20:03.008 [main] ERROR TestGeneration - failed to write statistics data

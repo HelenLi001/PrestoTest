@@ -1,0 +1,2 @@
+[MASTER] 22:16:52.372 [TEST_EXECUTION_THREAD_0] ERROR FunctionalMockStatement - Failed to use Mockito on class com.facebook.presto.spi.security.PrestoPrincipal: null
+[MASTER] 22:16:52.444 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on class com.facebook.presto.spi.security.PrestoPrincipal due to failed class initialization: Could not initialize class org.evosuite.shaded.org.mockito.internal.util.MockUtil

@@ -1,0 +1,6 @@
+* Starting client
+* Connecting to master process on port 12106
+* Analyzing classpath: 
+[MASTER] 01:02:58.780 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 23 seconds more than allowed.
+* Writing JUnit test case 'TpchMetadata_ESTest' to /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-tpch/.evosuite/tmp_2021_11_19_01_01_21/tests
+* Error while initializing target class: java.lang.ExceptionInInitializerError

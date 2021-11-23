@@ -1,0 +1,5 @@
+[MASTER] 21:04:40.430 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.plugin.jdbc.BooleanReadFunction. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 21:04:40.532 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 21:04:40.636 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,6 @@
+* Starting client
+* Connecting to master process on port 8161
+* Analyzing classpath: 
+[MASTER] 15:37:00.666 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 7 seconds more than allowed.
+* Writing JUnit test case 'SingleMapBlockWriter_ESTest' to /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-common/.evosuite/tmp_2021_11_18_14_35_54/tests
+* Error while initializing target class: java.lang.ExceptionInInitializerError

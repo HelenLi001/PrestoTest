@@ -1,0 +1,5 @@
+[MASTER] 07:13:37.592 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.raptor.storage.InplaceShardRewriter. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 07:13:37.719 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 07:13:37.821 [main] ERROR TestGeneration - failed to write statistics data

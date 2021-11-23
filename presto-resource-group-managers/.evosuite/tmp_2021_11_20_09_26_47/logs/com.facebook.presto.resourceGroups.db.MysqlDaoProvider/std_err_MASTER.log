@@ -1,0 +1,3 @@
+[MASTER] 09:47:17.730 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.resourceGroups.db.MysqlDaoProvider. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

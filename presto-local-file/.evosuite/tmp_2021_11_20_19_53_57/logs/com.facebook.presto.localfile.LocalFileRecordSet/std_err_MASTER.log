@@ -1,0 +1,3 @@
+[MASTER] 20:05:01.693 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.localfile.LocalFileRecordSet. Clients have not finished yet, although a timeout occurred.
+ClientNode: JUNIT_CHECK
+

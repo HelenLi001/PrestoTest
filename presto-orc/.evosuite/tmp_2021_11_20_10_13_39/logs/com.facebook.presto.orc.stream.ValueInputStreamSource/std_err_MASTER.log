@@ -1,0 +1,6 @@
+[MASTER] 11:51:00.478 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.orc.stream.ValueInputStreamSource. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 11:51:00.580 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 11:51:01.582 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 11:51:01.683 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,6 @@
+[MASTER] 18:22:01.354 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.cassandra.CassandraClientConfig. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 18:22:01.458 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 18:22:02.468 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 18:22:02.569 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,5 @@
+[MASTER] 02:59:32.834 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.clusterttlproviders.percentile.PercentileBasedClusterTtlProviderModule. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 02:59:32.948 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 02:59:33.052 [main] ERROR TestGeneration - failed to write statistics data

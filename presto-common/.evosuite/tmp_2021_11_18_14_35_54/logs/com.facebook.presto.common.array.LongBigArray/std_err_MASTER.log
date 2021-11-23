@@ -1,0 +1,6 @@
+[MASTER] 16:13:39.449 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.common.array.LongBigArray. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 16:13:39.551 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 16:13:40.554 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 16:13:40.654 [main] ERROR TestGeneration - failed to write statistics data

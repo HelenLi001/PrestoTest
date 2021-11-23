@@ -1,0 +1,6 @@
+[MASTER] 07:43:31.962 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.raptor.metadata.ShardDelta. Clients have not finished yet, although a timeout occurred.
+ClientNode: INITIALIZATION
+
+[MASTER] 07:43:31.970 [Thread-4] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed
+[MASTER] 07:43:32.077 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 07:43:32.179 [main] ERROR TestGeneration - failed to write statistics data

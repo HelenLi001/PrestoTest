@@ -1,0 +1,5 @@
+[MASTER] 20:50:07.179 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.plugin.jdbc.JdbcTableLayoutHandle. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 20:50:07.282 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 20:50:07.383 [main] ERROR TestGeneration - failed to write statistics data

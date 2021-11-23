@@ -1,0 +1,6 @@
+[MASTER] 14:46:58.582 [main] ERROR ExternalProcessHandler - Class com.facebook.presto.benchmark.event.EventClientModule. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 14:46:58.685 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 14:46:59.687 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 14:46:59.788 [main] ERROR TestGeneration - failed to write statistics data

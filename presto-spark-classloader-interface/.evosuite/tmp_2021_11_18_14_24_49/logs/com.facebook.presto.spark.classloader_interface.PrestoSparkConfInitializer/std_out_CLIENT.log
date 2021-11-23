@@ -1,0 +1,35 @@
+* Starting client
+* Connecting to master process on port 14628
+* Analyzing classpath: 
+  - /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-classloader-interface/target/classes
+  - /home/helen/.m2/repository/com/facebook/presto/spark/spark-core/2.0.2-6/spark-core-2.0.2-6.jar
+[MASTER] 14:25:09.875 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.apache.hadoop.mapreduce.task.JobContextImpl was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 14:25:09.910 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: org.apache.hadoop.mapreduce.task.JobContextImpl
+* Finished analyzing classpath
+* Generating tests for class com.facebook.presto.spark.classloader_interface.PrestoSparkConfInitializer
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 14:25:13.546 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-classloader-interface/.evosuite/evosuite-seeds/com.facebook.presto.spark.classloader_interface.PrestoSparkConfInitializer.seed
+* Loaded 0 tests from /mnt/c/Users/Helen/Documents/DataScience18668/GroupProject/project/presto/presto-spark-classloader-interface/.evosuite/evosuite-seeds/com.facebook.presto.spark.classloader_interface.PrestoSparkConfInitializer.seed
+* Total number of test goals: 
+  - Line 12
+  - Branch 5
+  - Exception 0
+  - MutationFactory 44
+  - Output 0
+  - Method 2
+  - MethodNoException 2
+  - CBranchFitnessFactory 5
+* Using seed 1637274294775
+* Starting evolution
+[MASTER] 14:25:14.672 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 2 seconds more than allowed.
+[MASTER] 14:25:17.292 [pool-2-thread-1] WARN  FunctionalMockStatement - Problem with class org.apache.spark.api.java.JavaNewHadoopRDD: java.lang.NoClassDefFoundError: org/apache/spark/rdd/NewHadoopRDD
+[MASTER] 14:25:17.533 [pool-2-thread-1] WARN  FunctionalMockStatement - Problem with class org.apache.spark.rdd.HadoopRDD: java.lang.NoClassDefFoundError: org/apache/hadoop/conf/Configuration
